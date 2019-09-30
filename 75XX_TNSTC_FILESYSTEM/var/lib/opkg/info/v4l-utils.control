@@ -1,0 +1,13 @@
+Package: v4l-utils
+Version: 1.0.1-r0
+Description: v4l2 and IR applications
+ v4l2 and IR applications
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2.1
+Architecture: armv5te
+OE: v4l-utils
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17), libstdc++6 (>= 4.7.2), libv4l (>= 1.0.1)
+Source: http://linuxtv.org/downloads/v4l-utils/v4l-utils-1.0.1.tar.bz2

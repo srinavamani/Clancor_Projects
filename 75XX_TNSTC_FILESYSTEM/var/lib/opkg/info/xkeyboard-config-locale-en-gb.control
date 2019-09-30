@@ -1,0 +1,18 @@
+Package: xkeyboard-config-locale-en-gb
+Version: 2.8-r0
+Description: Keyboard configuration database for X Window - en_GB translations
+ The non-arch keyboard configuration database for X Window.  The goal is
+ to provide the consistent, well-structured, frequently released open
+ source of X keyboard configuration data for X Window System
+ implementations.  The project is targeted to XKB-based systems.  This
+ package contains language translation files for the en_GB locale.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & MIT-style
+Architecture: armv5te
+OE: xkeyboard-config
+Homepage: http://freedesktop.org/wiki/Software/XKeyboardConfig
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, xkeyboard-config-locale
+Source: http://xorg.freedesktop.org/releases/individual/data/xkeyboard-config/xkeyboard-config-2.8.tar.bz2

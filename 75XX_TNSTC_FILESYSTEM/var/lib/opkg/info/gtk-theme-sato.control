@@ -1,0 +1,13 @@
+Package: gtk-theme-sato
+Version: 0.3.3+git0+4740ad8d53aba4368ce3e03b06cfdc69eb86dcdc-r0
+Description: gtk-sato-engine version 0.3.3+gitAUTOINC+4740ad8d53aba4368ce3e03b06cfdc69eb86dcdc-r0
+ Sato theme engine for GTK
+Section: x11/base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1 & LGPLv2+
+Architecture: armv5te
+OE: gtk-sato-engine
+Homepage: http://www.o-hand.com
+Depends: gtk-sato-engine
+Source: git://git.yoctoproject.org/gtk-sato-engine;protocol=git

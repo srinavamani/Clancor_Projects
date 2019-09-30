@@ -1,0 +1,18 @@
+Package: xhost
+Version: 1:1.0.5-r8.0
+Description: Server access control program for X
+ The xhost program is used to add and delete host names or user names to
+ the list allowed to make connections to the X server. In the case of
+ hosts, this provides a rudimentary form of privacy control and security.
+ Environments which require more sophisticated measures should implement
+ the user-based mechanism or use the hooks in the protocol for passing
+ other authentication data to the server.
+Section: x11/apps
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-X
+Architecture: armv5te
+OE: xhost
+Homepage: http://www.x.org/
+Depends: libx11-6 (>= 1.5.0), libc6 (>= 2.17), libxmuu1 (>= 1.1.1)
+Source: http://xorg.freedesktop.org/releases/individual/app/xhost-1.0.5.tar.bz2

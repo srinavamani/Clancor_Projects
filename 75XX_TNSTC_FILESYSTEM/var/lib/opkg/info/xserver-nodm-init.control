@@ -1,0 +1,17 @@
+Package: xserver-nodm-init
+Version: 2.0-r22
+Description: xserver-nodm-init version 2.0-r22
+ Simple Xserver Init Script (no dm)
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: all
+OE: xserver-nodm-init
+Homepage: unknown
+Depends: xinit, xserver-common (>= 1.30)
+Recommends: update-rc.d
+Provides: xserver-nodm-init-systemd
+Replaces: xserver-nodm-init-systemd
+Conflicts: xserver-nodm-init-systemd
+Source: file://xserver-nodm file://gplv2-license.patch file://xserver-nodm.service file://xserver-nodm.conf

@@ -1,0 +1,17 @@
+Package: packagegroup-base-wifi
+Version: 1.0-r76
+Description: WiFi support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: wireless-tools, wpa-supplicant
+Recommends: kernel-module-crypto_algapi, kernel-module-zd1211rw, kernel-module-ieee80211-crypt, kernel-module-ieee80211-crypt-tkip, kernel-module-aes, kernel-module-ecb, kernel-module-michael-mic, kernel-module-ieee80211-crypt-wep, kernel-module-cryptomgr, kernel-module-ieee80211-crypt-ccmp, kernel-module-aes-generic, kernel-module-arc4
+Provides: task-base-wifi
+Replaces: task-base-wifi
+Conflicts: task-base-wifi
+Source: None

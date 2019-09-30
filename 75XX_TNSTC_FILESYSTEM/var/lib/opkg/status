@@ -1,0 +1,2329 @@
+Package: shadow-securetty
+Version: 4.1.4.3-r2
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: gst-plugins-bad-locale-en-gb
+Version: 0.10.23-r4
+Recommends: virtual-locale-en-gb
+Provides: gst-plugins-bad-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: lrzsz
+Version: 0.12.20-r5
+Depends: update-alternatives-cworth, libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+
+Package: packagegroup-base-3g
+Version: 1.0-r76
+Depends: ofono
+Recommends: kernel-module-cdc-acm, kernel-module-cdc-wdm
+Provides: task-base-3g
+Replaces: task-base-3g
+Conflicts: task-base-3g
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: openssh-sftp-server
+Version: 6.1p1-r0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: lcms
+Version: 1.17-r4
+Depends: libtiff5 (>= 4.0.3), libjpeg8 (>= 8d), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libical
+Version: 0.48-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: ccid
+Version: 1.4.8-r0
+Depends: libc6 (>= 2.17), libusb-1.0-0 (>= 1.0.9), pcsc-lite
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: busybox-syslog
+Version: 1.20.2-r8
+Depends: update-alternatives-cworth
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/syslog-startup.conf.busybox 638acd6813015513fbd0c91d5918be4e
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libdrm-tests
+Version: 2.4.42-r4.0
+Depends: libdrm2 (>= 2.4.42), libkms1 (>= 2.4.42), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: libxdmcp6
+Version: 1:1.1.1-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libc6
+Version: 2.17-r3
+Provides: rtld(GNU_HASH), glibc
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: opkg
+Version: 1:0.1.8+svnr649-r13.0
+Depends: opkg-config-base, update-alternatives-cworth, libopkg1 (>= 0.1.8+svnr649), libc6 (>= 2.17)
+Replaces: opkg-nogpg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107845
+
+Package: python-readline
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libreadline6 (>= 6.2), libncursesw5 (>= 5.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libcom-err2
+Version: 1.42.7-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: python-codecs
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), python-lang, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libgnome-keyring0
+Version: 2.32.0-r3
+Depends: libcap2 (>= 2.22), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: poppler-data
+Version: 0.4.6-r0
+Status: install ok installed
+Architecture: all
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.20.2-r8
+Depends: update-alternatives-cworth, libc6 (>= 2.17)
+Recommends: update-rc.d, busybox-syslog, busybox-udhcpc
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: setserial
+Version: 2.17-r3
+Depends: libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: gst-plugins-good-souphttpsrc
+Version: 0.10.31-r8
+Depends: libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libgnome-keyring0 (>= 2.32.0), libcap2 (>= 2.22), libxml2 (>= 2.9.0), libdbus-1-3 (>= 1.6.8), libffi6 (>= 3.0.11), libsoup-2.4 (>= 2.40.2), gst-plugins-good, libgsttag-0.10-0 (>= 0.10.36), libsqlite3-0 (>= 3071502), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: tslib-conf
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Provides: libts-0.0-conf
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: gst-plugins-good
+Version: 0.10.31-r8
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libssl1.0.0
+Version: 1.0.1e-r15.2
+Depends: libcrypto1.0.0 (>= 1.0.1e), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: packagegroup-core-ssh-openssh
+Version: 1.0-r1
+Depends: openssh
+Provides: task-core-ssh-openssh
+Replaces: task-core-ssh-openssh
+Conflicts: task-core-ssh-openssh
+Status: install user installed
+Architecture: all
+Installed-Time: 1479107841
+
+Package: opkg-config-base
+Version: 1.0-r1
+Status: install ok installed
+Architecture: nuvoton_bsp
+Conffiles:
+ /etc/opkg/arch.conf 0dba62933bed0db86e7a5864aae8c322
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libice6
+Version: 1:1.0.8-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libpulse-simple0
+Version: 3.0-r0
+Depends: libx11-6 (>= 1.5.0), libpulse0 (>= 3.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 3.0), libxcb1 (>= 1.9), libcap2 (>= 2.22), libx11-xcb1 (>= 1.5.0), libdbus-1-3 (>= 1.6.8), libxtst6 (>= 1.2.1), libuuid1 (>= 2.22.2), libice6 (>= 1.0.8), libxi6 (>= 1.7), libc6 (>= 2.17), libxau6 (>= 1.0.7), libsm6 (>= 1.2.1), libxext6 (>= 1.3.1), libxdmcp6 (>= 1.1.1), libjson0 (>= 0.9)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: opensc
+Version: 0.13.0-r0
+Depends: libz1 (>= 1.2.7), libcrypto1.0.0 (>= 1.0.1e), libreadline6 (>= 6.2), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: ppp-dialin
+Version: 0.1-r8
+Depends: shadow, ppp, base-passwd
+Status: install user installed
+Architecture: all
+Installed-Time: 1479107843
+
+Package: busybox-udhcpc
+Version: 1.20.2-r8
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libnl-3-200
+Version: 1:3.2.21-r0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Replaces: libnl2
+Conflicts: libnl2
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: gst-plugins-base-videoscale
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libgstvideo-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: python-lang
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libgcrypt11
+Version: 1.5.0-r2
+Depends: libcap2 (>= 2.22), libgpg-error0 (>= 1.11), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: v4l-utils
+Version: 1.0.1-r0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17), libstdc++6 (>= 4.7.2), libv4l (>= 1.0.1)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: openssh-ssh
+Version: 6.1p1-r0
+Depends: libgcc1 (>= 4.7.2), libcrypto1.0.0 (>= 1.0.1e), update-alternatives-cworth, libz1 (>= 1.2.7), libc6 (>= 2.17)
+Provides: ssh
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/ssh/ssh_config 9fe60f33aaf449c355194b367234230c
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: bash
+Version: 4.2-r6
+Depends: libgcc1 (>= 4.7.2), update-alternatives-cworth, libtinfo5 (>= 5.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libusb-0.1-4
+Version: 1:0.1.4-r1
+Depends: libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: openssh
+Version: 6.1p1-r0
+Depends: openssh-scp, openssh-ssh, openssh-keygen, openssh-sshd
+Recommends: update-rc.d
+Conflicts: dropbear
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: alsa-states
+Version: 0.2.0-r3
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: libffi6
+Version: 3.0.11-r1
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: strace
+Version: 4.7-r4
+Depends: libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107844
+
+Package: openssl
+Version: 1.0.1e-r15.2
+Depends: libssl1.0.0 (>= 1.0.1e), libc6 (>= 2.17), libcrypto1.0.0 (>= 1.0.1e)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: dbus-1
+Version: 1.6.8-r6.0
+Depends: libx11-6 (>= 1.5.0), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.17), shadow, libexpat1 (>= 2.1.0), base-passwd
+Recommends: update-rc.d
+Provides: dbus-x11
+Replaces: dbus-x11
+Status: install user installed
+Architecture: armv5te
+Conffiles:
+ /etc/dbus-1/system.conf 121a57a9ef97cd7cfb1e0a1ebe7dc60e
+ /etc/dbus-1/session.conf 3ec4497bcff6f8e1445db64b23bda595
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libxv1
+Version: 1.0.7-r0
+Depends: libx11-6 (>= 1.5.0), libxcb1 (>= 1.9), libxext6 (>= 1.3.1), libc6 (>= 2.17), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: eglibc-locale-en-gb
+Version: 2.17-r0
+Recommends: virtual-locale-en-gb
+Provides: eglibc-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: modutils-initscripts
+Version: 1.0-r6
+Recommends: update-rc.d
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libasound-module-bluez
+Version: 4.101-r5
+Depends: libgcc1 (>= 4.7.2), libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: pcsc-lite
+Version: 1.8.6-r3
+Depends: libudev0 (>= 182), libc6 (>= 2.17)
+Recommends: ccid
+Provides: pcsc-lite-systemd
+Replaces: pcsc-lite-systemd
+Conflicts: pcsc-lite-systemd
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: minicom
+Version: 2.6.2-r0
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107842
+
+Package: alsa-utils-amixer
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libjpeg8
+Version: 8d-r1
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: libopkg1
+Version: 1:0.1.8+svnr649-r13.0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libusb-1.0-0
+Version: 1.0.9-r1
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libuuid1
+Version: 2.22.2-r3
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: packagegroup-distro-base
+Version: 1.0-r76
+Depends: packagegroup-core-boot
+Recommends: kernel-module-af-packet
+Provides: task-distro-base
+Replaces: task-distro-base
+Conflicts: task-distro-base
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: sysfsutils
+Version: 2.1.0-r5
+Depends: libsysfs2 (>= 2.1.0), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libnl-3-cli
+Version: 1:3.2.21-r0
+Depends: libgcc1 (>= 4.7.2), libnl-route-3-200 (>= 3.2.21), libnl-3-200 (>= 3.2.21), libnl-3-genl (>= 3.2.21), libc6 (>= 2.17), libnl-nf-3-200 (>= 3.2.21)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libxcb-shm0
+Version: 1.9-r0
+Depends: libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: base-files
+Version: 3.0.14-r73
+Status: install ok installed
+Architecture: nuvoton_bsp
+Conffiles:
+ /etc/fstab 26854391745ce33aae8bd93cb983190f
+ /etc/hostname d0db388ef0d8e9b1ad5f88f8d33505ea
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: alsa-conf-base
+Version: 1.0.26-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: avahi-locale-en-gb
+Version: 0.6.31-r6.1
+Recommends: virtual-locale-en-gb
+Provides: avahi-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: openssh-sshd
+Version: 6.1p1-r0
+Depends: libgcc1 (>= 4.7.2), libz1 (>= 1.2.7), openssh-keygen, libcrypto1.0.0 (>= 1.0.1e), libc6 (>= 2.17), shadow, base-passwd
+Provides: sshd
+Conflicts: dropbear
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/ssh/sshd_config 3d50b3ee4fef8582e35d738a04fca398
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: sysvinit-inittab
+Version: 2.88dsf-r9
+Status: install ok installed
+Architecture: nuvoton_bsp
+Conffiles:
+ /etc/inittab e669c133bb90f4290a3eb1aa958c3bab
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: packagegroup-base-nfc
+Version: 1.0-r76
+Depends: neard
+Recommends: kernel-module-nfc
+Provides: task-base-nfc
+Replaces: task-base-nfc
+Conflicts: task-base-nfc
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libglib-2.0-utils
+Version: 1:2.34.3-r2
+Depends: libglib-2.0-0 (>= 2.34.3), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libstdc++6
+Version: 4.7.2-r20
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: packagegroup-base-nfs
+Version: 1.0-r76
+Depends: rpcbind
+Recommends: kernel-module-nfs
+Provides: task-base-nfs
+Replaces: task-base-nfs
+Conflicts: task-base-nfs
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: wpa-supplicant-cli
+Version: 2.0-r1
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libxrender1
+Version: 1:0.9.7-r0
+Depends: libx11-6 (>= 1.5.0), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libdbus-1-3
+Version: 1.6.8-r6.0
+Depends: libc6 (>= 2.17)
+Recommends: dbus-1
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libnl-3-genl
+Version: 1:3.2.21-r0
+Depends: libnl-3-cli (>= 3.2.21), libnl-3-200 (>= 3.2.21), libc6 (>= 2.17)
+Replaces: libnl-genl2, libnl-genl-3-200
+Conflicts: libnl-genl2, libnl-genl-3-200
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: gst-plugins-base-audioconvert
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libgstaudio-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: alsa-utils-alsaloop
+Version: 1.0.26-r0
+Depends: libgcc1 (>= 4.7.2), libsamplerate0 (>= 0.1.8), libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: gdk-pixbuf
+Version: 2.26.5-r1
+Depends: libglib-2.0-0 (>= 2.34.3), libffi6 (>= 3.0.11), libz1 (>= 1.2.7), libpng16-16 (>= 1.6.0), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: python-core
+Version: 2.7.3-r0.3
+Depends: python-re, libpython2.7-1.0 (>= 2.7.3), libz1 (>= 1.2.7), python-lang, libc6 (>= 2.17)
+Recommends: python-readline
+Provides: python
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: usbutils
+Version: 006-r0
+Depends: libz1 (>= 1.2.7), usbutils-ids, libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107845
+
+Package: initscripts
+Version: 1.0-r140
+Depends: update-alternatives-cworth
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libpoppler47
+Version: 0.28.1-r0
+Depends: libgcc1 (>= 4.7.2), libstdc++6 (>= 4.7.2), libpng16-16 (>= 1.6.0), liblzma5 (>= 5.1.2alpha), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libc6 (>= 2.17), libtiff5 (>= 4.0.3), libfontconfig1 (>= 2.10.2), libexpat1 (>= 2.1.0), libjpeg8 (>= 8d), lcms (>= 1.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libcrypto1.0.0
+Version: 1.0.1e-r15.2
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: gst-meta-base
+Version: 0.10-r13
+Depends: gst-plugins-base-gio, gst-plugins-base-volume, gst-plugins-base-audioresample, gst-plugins-base-videoscale, gstreamer, gst-plugins-base-typefindfunctions, gst-plugins-good-autodetect, gst-plugins-base-audioconvert, gst-plugins-base-decodebin2, gst-plugins-good-souphttpsrc, gst-plugins-base-decodebin, gst-meta-x11-base, gst-plugins-base-alsa, gst-plugins-base-playbin, gst-plugins-base-ffmpegcolorspace
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107844
+
+Package: libtinfo5
+Version: 5.9-r15.1
+Depends: libc6 (>= 2.17)
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: packagegroup-base-alsa
+Version: 1.0-r76
+Depends: alsa-state, alsa-utils-alsamixer, alsa-utils-alsactl
+Recommends: kernel-module-snd-pcm-oss, kernel-module-snd-mixer-oss
+Provides: task-base-alsa
+Replaces: task-base-alsa
+Conflicts: task-base-alsa
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libjson0
+Version: 0.9-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: packagegroup-base-usbgadget
+Version: 1.0-r76
+Recommends: kernel-module-pxa27x_udc, kernel-module-g-file-storage, kernel-module-g-ether, kernel-module-gadgetfs, kernel-module-g-serial
+Provides: task-base-usbgadget
+Replaces: task-base-usbgadget
+Conflicts: task-base-usbgadget
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: update-alternatives-cworth
+Version: 1:0.1.8+svnr649-r13.0
+Provides: update-alternatives
+Conflicts: update-alternatives-dpkg
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: gst-plugins-good-locale-en-gb
+Version: 0.10.31-r8
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, gst-plugins-good-locale
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: python-io
+Version: 2.7.3-r0.3
+Depends: libssl1.0.0 (>= 1.0.1e), libpython2.7-1.0 (>= 2.7.3), python-core, python-textutils, python-math, libcrypto1.0.0 (>= 1.0.1e), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libopenobex1
+Version: 1.5-r0
+Depends: libusb-1.0-0 (>= 1.0.9), libusb-0.1-4 (>= 0.1.4), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: gst-plugins-base-volume
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libgstaudio-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: gstreamer-locale-en-gb
+Version: 0.10.36-r2
+Recommends: virtual-locale-en-gb
+Provides: gstreamer-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: python-textutils
+Version: 2.7.3-r0.3
+Depends: libpython2.7-1.0 (>= 2.7.3), python-core, python-io, libc6 (>= 2.17), python-re, python-stringold
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libgstvideo-0.10-0
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libvorbis
+Version: 1.3.3-r1
+Depends: libogg0 (>= 1.3.0), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: pointercal
+Version: 0.0-r11
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: alsa-utils-alsaconf
+Version: 1.0.26-r0
+Depends: bash
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libkms1
+Version: 2.4.42-r4.0
+Depends: libdrm2 (>= 2.4.42), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r76
+Recommends: kernel-module-ipv6
+Provides: task-base-ipv6
+Replaces: task-base-ipv6
+Conflicts: task-base-ipv6
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libts-1.0-0
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Depends: tslib-conf, libc6 (>= 2.17)
+Recommends: pointercal
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libpng16-16
+Version: 1.6.0-r0
+Depends: libz1 (>= 1.2.7), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.9.0-r1.1
+Depends: libgcc1 (>= 4.7.2), libz1 (>= 1.2.7), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: ofono
+Version: 1.12-r2
+Depends: dbus-1, libdbus-1-3 (>= 1.6.8), libudev0 (>= 182), bluez4 (>= 4.101), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Recommends: update-rc.d
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: python-crypt
+Version: 2.7.3-r0.3
+Depends: libssl1.0.0 (>= 1.0.1e), libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.17), libcrypto1.0.0 (>= 1.0.1e), python-core
+Recommends: openssl
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libavahi-common3
+Version: 0.6.31-r6.1
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: neard
+Version: 0.10+git0+eb486bf35e24d7d1db61350f5ab393a0c880523d-r0
+Depends: dbus-1, python-pygobject, python, libdbus-1-3 (>= 1.6.8), libnl-3-200 (>= 3.2.21), libnl-3-genl (>= 3.2.21), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), python-dbus
+Recommends: bluez4, update-rc.d, wpa-supplicant
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107840
+
+Package: libblkid1
+Version: 2.22.2-r3
+Depends: libgcc1 (>= 4.7.2), libuuid1 (>= 2.22.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: locale-base-en-gb
+Version: 2.17-r0
+Depends: eglibc-binary-localedata-en-gb
+Provides: virtual-locale-en-gb, virtual-locale-en
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107838
+
+Package: alsa-state
+Version: 0.2.0-r3
+Depends: alsa-utils-alsactl
+Recommends: update-rc.d, alsa-states
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/asound.conf 3f43dc8546865a72b6e3b3a4a30c5cd3
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: gst-plugins-base-gio
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libicuuc50
+Version: 50.1.2-r0
+Depends: libgcc1 (>= 4.7.2), libicudata50 (>= 50.1.2), libstdc++6 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libsdl-1.2-0
+Version: 1.2.15-r2
+Depends: libgcc1 (>= 4.7.2), libts-1.0-0 (>= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+
+Package: gst-plugins-base-locale-en-gb
+Version: 0.10.36-r7
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, gst-plugins-base-locale
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: libsqlite3-0
+Version: 3071502-r0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: python-math
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.17), python-crypt
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: eglibc-binary-localedata-en-us
+Version: 2.17-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: libxcb1
+Version: 1.9-r0
+Depends: libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libapm1
+Version: 3.2.2-14-r2
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: python-elementtree
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: packagegroup-base-ext2
+Version: 1.0-r76
+Depends: hdparm, e2fsprogs-e2fsck, e2fsprogs-mke2fs, e2fsprogs
+Provides: task-base-ext2
+Replaces: task-base-ext2
+Conflicts: task-base-ext2
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: udev-utils
+Version: 182-r7
+Depends: libgcc1 (>= 4.7.2), libkmod2 (>= 9), libblkid1 (>= 2.22.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: packagegroup-base-usbhost
+Version: 1.0-r76
+Depends: usbutils
+Recommends: kernel-module-usbmouse, kernel-module-mousedev, kernel-module-scsi-mod, kernel-module-uhci-hcd, kernel-module-usbhid, kernel-module-usb-storage, kernel-module-usbcore, kernel-module-ohci-hcd, kernel-module-ehci-hcd, kernel-module-sd-mod, kernel-module-usbnet, kernel-module-usbserial
+Provides: task-base-usbhost
+Replaces: task-base-usbhost
+Conflicts: task-base-usbhost
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: alsa-utils-alsaucm
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libpython2.7-1.0
+Version: 2.7.3-r0.3
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libpulse0
+Version: 3.0-r0
+Depends: libx11-6 (>= 1.5.0), libgcc1 (>= 4.7.2), libsndfile1 (>= 1.0.25), libpulsecommon (>= 3.0), libxcb1 (>= 1.9), libcap2 (>= 2.22), libx11-xcb1 (>= 1.5.0), libdbus-1-3 (>= 1.6.8), libxtst6 (>= 1.2.1), libuuid1 (>= 2.22.2), libice6 (>= 1.0.8), libxi6 (>= 1.7), libc6 (>= 2.17), libxau6 (>= 1.0.7), libsm6 (>= 1.2.1), libxext6 (>= 1.3.1), libxdmcp6 (>= 1.1.1), libjson0 (>= 0.9)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: wpa-supplicant
+Version: 2.0-r1
+Depends: libdbus-1-3 (>= 1.6.8), libnl-3-200 (>= 3.2.21), libnl-3-genl (>= 3.2.21), libc6 (>= 2.17), libgcrypt11 (>= 1.5.0), libgnutls26 (>= 2.12.23)
+Recommends: wpa-supplicant-cli, wpa-supplicant-passphrase
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/wpa_supplicant.conf c00ac06edf6935bb553f19124d63b4ea
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: opkg-collateral
+Version: 1.0-r2
+Status: install user installed
+Architecture: armv5te
+Conffiles:
+ /etc/opkg/opkg.conf 50bf6fd742dfaca19ff7a54d0a03e74a
+Installed-Time: 1479107841
+
+Package: rpcbind
+Version: 0.2.0-r4
+Depends: libtirpc1 (>= 0.2.3), libc6 (>= 2.17)
+Recommends: update-rc.d
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libncursesw5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: libgnome-keyring-locale-en-gb
+Version: 2.32.0-r3
+Recommends: virtual-locale-en-gb
+Provides: libgnome-keyring-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: e2fsprogs-badblocks
+Version: 1.42.7-r0
+Depends: libcom-err2 (>= 1.42.7), libext2fs2 (>= 1.42.7), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: psplash-default
+Version: 0.1+git0+afd4e228c606a9998feae44a3fed4474803240b7-r8
+Depends: psplash, update-alternatives-cworth, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: alsa-utils-midi
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: alsa-utils-alsamixer
+Version: 1.0.26-r0
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.17), libpanelw5 (>= 5.9), libmenuw5 (>= 5.9), libasound2 (>= 1.0.26), libformw5 (>= 5.9)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: libsamplerate0
+Version: 0.1.8-r1
+Depends: libsndfile1 (>= 1.0.25), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libxext6
+Version: 1:1.3.1-r0
+Depends: libx11-6 (>= 1.5.0), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: python-threading
+Version: 2.7.3-r0.3
+Depends: python-core, python-lang
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: poky-feed-config-opkg
+Version: 1.0-r2
+Status: install user installed
+Architecture: nuvoton_bsp
+Conffiles:
+ /etc/opkg/base-feeds.conf d41d8cd98f00b204e9800998ecf8427e
+ /etc/opkg/arch.conf 0dba62933bed0db86e7a5864aae8c322
+Installed-Time: 1479107845
+
+Package: usbutils-ids
+Version: 006-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: alsa-utils-iecset
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libsm6
+Version: 1:1.2.1-r0
+Depends: libice6 (>= 1.0.8), libuuid1 (>= 2.22.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: ppp
+Version: 2.4.5-r6
+Depends: libpcap1 (>= 1.3.0), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Conffiles:
+ /etc/ppp/pap-secrets e0d80e4e091ba0ca3688784467a8205d
+ /etc/ppp/chap-secrets d1cb45f1aedb9500ab1c325f887d8f84
+ /etc/ppp/options 300f139554327e63b13b44a2e3040ce0
+Installed-Time: 1479107841
+
+Package: libxcb-render0
+Version: 1.9-r0
+Depends: libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: ntp
+Version: 4.2.6p3-r5
+Depends: libcap2 (>= 2.22), libgcc1 (>= 4.7.2), ntp-tickadj, libc6 (>= 2.17)
+Recommends: update-rc.d
+Suggests: iana-etc
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+
+Package: libkmod2
+Version: 9-r0.0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: base-passwd
+Version: 3.5.26-r2
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: busybox-hwclock
+Version: 1.20.2-r8
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libreadline6
+Version: 6.2-r4
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: gst-plugins-bad
+Version: 0.10.23-r4
+Depends: libglib-2.0-utils
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+
+Package: libgstpbutils-0.10-0
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: gst-plugins-base-audioresample
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: apm
+Version: 3.2.2-14-r2
+Depends: libc6 (>= 2.17), libapm1 (>= 3.2.2-14)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: shadow
+Version: 4.1.4.3-r13
+Depends: libgcc1 (>= 4.7.2), update-alternatives-cworth, shadow-securetty, base-passwd, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: e2fsprogs-e2fsck
+Version: 1.42.7-r0
+Depends: libgcc1 (>= 4.7.2), libblkid1 (>= 2.22.2), libcom-err2 (>= 1.42.7), libe2p2 (>= 1.42.7), libc6 (>= 2.17), libext2fs2 (>= 1.42.7), libuuid1 (>= 2.22.2)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: python-re
+Version: 2.7.3-r0.3
+Depends: python-core
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: kmod
+Version: 9-r0.0
+Depends: libgcc1 (>= 4.7.2), update-alternatives-cworth, libkmod2 (>= 9), libc6 (>= 2.17)
+Provides: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Replaces: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Conflicts: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: openssh-keygen
+Version: 6.1p1-r0
+Depends: libgcc1 (>= 4.7.2), libcrypto1.0.0 (>= 1.0.1e), libc6 (>= 2.17)
+Conflicts: ssh-keygen
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: packagegroup-core-boot
+Version: 1.0-r11
+Depends: tinylogin, busybox, modutils-initscripts, busybox-hwclock, sysvinit, update-alternatives-cworth, udev, initscripts, netbase, base-files, init-ifupdown, base-passwd
+Provides: task-core-boot
+Replaces: task-core-boot
+Conflicts: task-core-boot
+Status: install user installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107843
+
+Package: libgstinterfaces-0.10-0
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: openssh-scp
+Version: 6.1p1-r0
+Depends: libgcc1 (>= 4.7.2), update-alternatives-cworth, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libgnutls26
+Version: 2.12.23-r8.4
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.7), libc6 (>= 2.17), libtasn1-3 (>= 2.14), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libxtst6
+Version: 1:1.2.1-r0
+Depends: libx11-6 (>= 1.5.0), libxcb1 (>= 1.9), libxext6 (>= 1.3.1), libxi6 (>= 1.7), libc6 (>= 2.17), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: gst-plugins-base-decodebin2
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: iptables
+Version: 1.4.17-r1
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Recommends: kernel-module-nf-defrag-ipv4, kernel-module-nf-conntrack, kernel-module-ipt-masquerade, kernel-module-x-tables, kernel-module-nf-nat, kernel-module-nf-conntrack-ipv4, kernel-module-iptable-nat, kernel-module-ip-tables, kernel-module-iptable-filter
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: packagegroup-base-zeroconf
+Version: 1.0-r76
+Depends: avahi-daemon
+Provides: task-base-zeroconf
+Replaces: task-base-zeroconf
+Conflicts: task-base-zeroconf
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: ntp-tickadj
+Version: 4.2.6p3-r5
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: python-dbus
+Version: 1.1.1-r2
+Depends: libdbus-glib-1-2 (>= 0.100.2), libffi6 (>= 3.0.11), python-threading, libdbus-1-3 (>= 1.6.8), libz1 (>= 1.2.7), libglib-2.0-0 (>= 2.34.3), python-io, python-logging, libc6 (>= 2.17), python-xml, python-stringold
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libpixman-1-0
+Version: 1:0.29.2-r0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: alsa-utils-aplay
+Version: 1.0.26-r0
+Depends: libgcc1 (>= 4.7.2), libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libext2fs2
+Version: 1.42.7-r0
+Depends: libgcc1 (>= 4.7.2), libcom-err2 (>= 1.42.7), libblkid1 (>= 2.22.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: obexd
+Version: 0.47-r1
+Depends: bluez4 (>= 4.101), libglib-2.0-0 (>= 2.34.3), libdbus-1-3 (>= 1.6.8), libical (>= 0.48), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: tslib-calibrate
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Depends: libts-1.0-0 (>= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+
+Package: glib-networking
+Version: 2.28.7-r3
+Depends: libffi6 (>= 3.0.11), libcap2 (>= 2.22), libz1 (>= 1.2.7), libgnutls26 (>= 2.12.23), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libtasn1-3 (>= 2.14), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: udev
+Version: 182-r7
+Depends: libgcc1 (>= 4.7.2), libkmod2 (>= 9), libblkid1 (>= 2.22.2), libc6 (>= 2.17)
+Recommends: update-rc.d, udev-utils, pciutils-ids, udev-extraconf, usbutils-ids
+Provides: hotplug
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: bluez4
+Version: 4.101-r5
+Depends: libdbus-1-3 (>= 1.6.8), libudev0 (>= 182), libreadline6 (>= 6.2), libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libusb-0.1-4 (>= 0.1.4)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: e2fsprogs
+Version: 1.42.7-r0
+Depends: libgcc1 (>= 4.7.2), libss2 (>= 1.42.7), libblkid1 (>= 2.22.2), libcom-err2 (>= 1.42.7), libe2p2 (>= 1.42.7), e2fsprogs-badblocks, libc6 (>= 2.17), libext2fs2 (>= 1.42.7), libuuid1 (>= 2.22.2)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: hdparm
+Version: 9.43-r0
+Depends: libgcc1 (>= 4.7.2), update-alternatives-cworth, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: liblzma5
+Version: 5.1.2alpha-r0
+Depends: libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: python-xml
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), python-elementtree, libc6 (>= 2.17), python-re
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: gdk-pixbuf-locale-en-gb
+Version: 2.26.5-r1
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, gdk-pixbuf-locale
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: packagegroup-base-bluetooth
+Version: 1.0-r76
+Depends: bluez4, libasound-module-bluez
+Recommends: kernel-module-bnep, kernel-module-bluetooth, kernel-module-hci-usb, kernel-module-rfcomm, kernel-module-sco, kernel-module-hci-uart, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap
+Provides: task-base-bluetooth
+Replaces: task-base-bluetooth
+Conflicts: task-base-bluetooth
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libglib-2.0-locale-en-gb
+Version: 1:2.34.3-r2
+Recommends: virtual-locale-en-gb
+Provides: glib-2.0-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: libpulsecommon
+Version: 3.0-r0
+Depends: libx11-6 (>= 1.5.0), libgcc1 (>= 4.7.2), libsndfile1 (>= 1.0.25), libxcb1 (>= 1.9), libcap2 (>= 2.22), libx11-xcb1 (>= 1.5.0), libdbus-1-3 (>= 1.6.8), libxtst6 (>= 1.2.1), libuuid1 (>= 2.22.2), libice6 (>= 1.0.8), libxi6 (>= 1.7), libc6 (>= 2.17), libxau6 (>= 1.0.7), libsm6 (>= 1.2.1), libxext6 (>= 1.3.1), libxdmcp6 (>= 1.1.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: avahi-daemon
+Version: 0.6.31-r6.1
+Depends: libdaemon0 (>= 0.14), libcap2 (>= 2.22), libavahi-core7 (>= 0.6.31), libdbus-1-3 (>= 1.6.8), libc6 (>= 2.17), sysvinit-pidof, libavahi-common3 (>= 0.6.31), shadow, libexpat1 (>= 2.1.0), base-passwd
+Recommends: libnss-mdns
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/avahi/avahi-daemon.conf aef4943065ce0314732e1e5322bbdbe3
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libnl-route-3-200
+Version: 1:3.2.21-r0
+Depends: libnl-3-200 (>= 3.2.21), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libpanelw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: obex-data-server
+Version: 0.4.6-r0
+Depends: libdbus-glib-1-2 (>= 0.100.2), bluez4 (>= 4.101), gdk-pixbuf (>= 2.26.5), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libopenobex1 (>= 1.5), libusb-0.1-4 (>= 0.1.4)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: libpyglib-2.0-python0
+Version: 2.27.91-r6
+Depends: libglib-2.0-0 (>= 2.34.3), libpython2.7-1.0 (>= 2.7.3), libffi6 (>= 3.0.11), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: sox
+Version: 13.0.0-r2
+Depends: libogg0 (>= 1.3.0), libsndfile1 (>= 1.0.25), libsamplerate0 (>= 0.1.8), libvorbis (>= 1.3.3), libc6 (>= 2.17), libasound2 (>= 1.0.26)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: ncurses-terminfo-base
+Version: 5.9-r15.1
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: libsoup-2.4
+Version: 2.40.2-r1
+Depends: libz1 (>= 1.2.7), libgnome-keyring0 (>= 2.32.0), libcap2 (>= 2.22), libxml2 (>= 2.9.0), libdbus-1-3 (>= 1.6.8), libffi6 (>= 3.0.11), libsqlite3-0 (>= 3071502), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libgpg-error0 (>= 1.11), libgcrypt11 (>= 1.5.0)
+Recommends: glib-networking
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: packagegroup-base-extended
+Version: 1.0-r76
+Depends: packagegroup-base, packagegroup-base-bluetooth, packagegroup-base-3g, packagegroup-base-nfc, packagegroup-base-wifi
+Provides: task-base-extended
+Replaces: task-base-extended
+Conflicts: task-base-extended
+Status: install user installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+
+Package: gst-plugins-base-playbin
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libgstvideo-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: sysvinit-pidof
+Version: 2.88dsf-r11
+Depends: update-alternatives-cworth, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libpcap1
+Version: 1.3.0-r5.0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: packagegroup-base-apm
+Version: 1.0-r76
+Depends: apmd, apm
+Provides: task-base-apm
+Replaces: task-base-apm
+Conflicts: task-base-apm
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libsndfile1
+Version: 1.0.25-r1
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: gst-plugins-base-typefindfunctions
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libxi6
+Version: 1:1.7-r0
+Depends: libx11-6 (>= 1.5.0), libxcb1 (>= 1.9), libxext6 (>= 1.3.1), libc6 (>= 2.17), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libss2
+Version: 1.42.7-r0
+Depends: libcom-err2 (>= 1.42.7), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: gst-plugins-good-autodetect
+Version: 0.10.31-r8
+Depends: libffi6 (>= 3.0.11), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), gst-plugins-good, libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libfontconfig1
+Version: 2.10.2-r1
+Depends: libexpat1 (>= 2.1.0), libfreetype6 (>= 2.4.11), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: update-rc.d
+Version: 0.7-r5
+Status: install ok installed
+Architecture: all
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: alsa-utils-aconnect
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: gst-plugins-base-xvimagesink
+Version: 0.10.36-r7
+Depends: libx11-6 (>= 1.5.0), libz1 (>= 1.2.7), libxcb1 (>= 1.9), libgstvideo-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libxext6 (>= 1.3.1), gstreamer (>= 0.10.36), libxv1 (>= 1.0.7), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libice6 (>= 1.0.8), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libxau6 (>= 1.0.7), libsm6 (>= 1.2.1), libuuid1 (>= 2.22.2), gst-plugins-base, libxdmcp6 (>= 1.1.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: libcap2
+Version: 2.22-r5
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: tinylogin
+Version: 1.4-r9
+Depends: update-alternatives-cworth, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libsysfs2
+Version: 2.1.0-r5
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: gstreamer
+Version: 0.10.36-r2
+Depends: libgcc1 (>= 4.7.2), libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libhid
+Version: 0.2.16-r0
+Depends: libusb-1.0-0 (>= 1.0.9), libusb-0.1-4 (>= 0.1.4), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: gst-meta-x11-base
+Version: 0.10-r13
+Recommends: gst-plugins-base-ximagesink, gst-plugins-base-xvimagesink
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: pciutils-ids
+Version: 3.1.10-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: packagegroup-base-wifi
+Version: 1.0-r76
+Depends: wireless-tools, wpa-supplicant
+Recommends: kernel-module-crypto_algapi, kernel-module-zd1211rw, kernel-module-ieee80211-crypt, kernel-module-ieee80211-crypt-tkip, kernel-module-aes, kernel-module-ecb, kernel-module-michael-mic, kernel-module-ieee80211-crypt-wep, kernel-module-cryptomgr, kernel-module-ieee80211-crypt-ccmp, kernel-module-aes-generic, kernel-module-arc4
+Provides: task-base-wifi
+Replaces: task-base-wifi
+Conflicts: task-base-wifi
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: apmd
+Version: 3.2.2-14-r2
+Depends: libc6 (>= 2.17), libapm1 (>= 3.2.2-14)
+Recommends: update-rc.d
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libz1
+Version: 1.2.7-r0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: python-stringold
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.17), python-re
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: openssh-sftp
+Version: 6.1p1-r0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107840
+
+Package: libglib-2.0-0
+Version: 1:2.34.3-r2
+Depends: libgcc1 (>= 4.7.2), libffi6 (>= 3.0.11), libz1 (>= 1.2.7), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libx11-6
+Version: 1:1.5.0-r10.3
+Depends: libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libtiff5
+Version: 4.0.3-r0
+Depends: libgcc1 (>= 4.7.2), liblzma5 (>= 5.1.2alpha), libz1 (>= 1.2.7), libjpeg8 (>= 8d), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: python-logging
+Version: 2.7.3-r0.3
+Depends: python-core, python-io, python-lang, python-pickle, python-stringold
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libicui18n50
+Version: 50.1.2-r0
+Depends: libgcc1 (>= 4.7.2), libicudata50 (>= 50.1.2), libicuuc50 (>= 50.1.2), libstdc++6 (>= 4.7.2), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107845
+
+Package: libtasn1-3
+Version: 2.14-r1
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: gst-plugins-ugly-locale-en-gb
+Version: 0.10.19-r3
+Recommends: virtual-locale-en-gb
+Provides: gst-plugins-ugly-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: netbase
+Version: 1:5.0-r0
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/hosts 27acad957c7cded40cd6ac50d23ddc66
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: gst-plugins-ugly
+Version: 0.10.19-r3
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: libdrm2
+Version: 2.4.42-r4.0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: libsoup-2.4-locale-en-gb
+Version: 2.40.2-r1
+Recommends: virtual-locale-en-gb
+Provides: libsoup-2.4-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: libgcc1
+Version: 4.7.2-r20
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: psplash
+Version: 0.1+git0+afd4e228c606a9998feae44a3fed4474803240b7-r8
+Depends: libc6 (>= 2.17)
+Recommends: update-rc.d, psplash-default
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: tslib-tests
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Depends: libts-1.0-0 (>= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0), libc6 (>= 2.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107843
+
+Package: packagegroup-base
+Version: 1.0-r76
+Depends: packagegroup-base-usbhost, packagegroup-base-nfs, packagegroup-base-ext2, packagegroup-base-alsa, packagegroup-distro-base, packagegroup-base-zeroconf, packagegroup-base-usbgadget, sysfsutils, module-init-tools, packagegroup-base-ipv6, packagegroup-machine-base, packagegroup-base-apm
+Recommends: kernel-module-rtc-sysfs, kernel-module-rtc-proc, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-input, kernel-module-unix, kernel-module-uinput
+Provides: task-base
+Replaces: task-base
+Conflicts: task-base
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: poppler
+Version: 0.28.1-r0
+Depends: libgcc1 (>= 4.7.2), poppler-data, libstdc++6 (>= 4.7.2), libpng16-16 (>= 1.6.0), liblzma5 (>= 5.1.2alpha), libz1 (>= 1.2.7), libpoppler47 (>= 0.28.1), libfreetype6 (>= 2.4.11), libcairo2 (>= 1.12.14), libc6 (>= 2.17), libtiff5 (>= 4.0.3), libfontconfig1 (>= 2.10.2), libexpat1 (>= 2.1.0), libjpeg8 (>= 8d), lcms (>= 1.17)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107842
+
+Package: gst-plugins-base
+Version: 0.10.36-r7
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107841
+
+Package: libexpat1
+Version: 2.1.0-r0
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: locale-base-en-us
+Version: 2.17-r0
+Depends: eglibc-binary-localedata-en-us
+Provides: virtual-locale-en-us, virtual-locale-en
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107838
+
+Package: alsa-utils-alsactl
+Version: 1.0.26-r0
+Depends: libgcc1 (>= 4.7.2), libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Recommends: alsa-states
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: libnl-nf-3-200
+Version: 1:3.2.21-r0
+Depends: libnl-route-3-200 (>= 3.2.21), libnl-3-200 (>= 3.2.21), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: gst-plugins-base-ffmpegcolorspace
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libgstvideo-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: libasound2
+Version: 1.0.26-r0
+Depends: libgcc1 (>= 4.7.2), alsa-conf-base, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: python-pygobject
+Version: 2.27.91-r6
+Depends: libpython2.7-1.0 (>= 2.7.3), libpyglib-2.0-python0 (>= 2.27.91), python-textutils, libz1 (>= 1.2.7), libffi6 (>= 3.0.11), python-core, libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: alsa-utils-speakertest
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libgstaudio-0.10-0
+Version: 0.10.36-r7
+Depends: libgcc1 (>= 4.7.2), gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: connman
+Version: 1.12-r19.0
+Depends: iptables (>= 1.4.17), dbus-1, ofono, libdbus-1-3 (>= 1.6.8), bluez4, libgnutls26 (>= 2.12.23), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), shadow, base-passwd, wpa-supplicant
+Recommends: update-rc.d, connman-conf
+Provides: connman-plugin-bluetooth, connman-plugin-ofono, connman-plugin-loopback, connman-plugin-wifi, connman-plugin-ethernet
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107842
+
+Package: libgsttag-0.10-0
+Version: 0.10.36-r7
+Depends: libz1 (>= 1.2.7), libxml2 (>= 2.9.0), libffi6 (>= 3.0.11), gstreamer (>= 0.10.36), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: libx11-xcb1
+Version: 1:1.5.0-r10.3
+Depends: libx11-6 (>= 1.5.0), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: init-ifupdown
+Version: 1.0-r0
+Depends: netbase
+Recommends: update-rc.d
+Conflicts: netbase (<< 1:5.0)
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/network/interfaces 0e79ac68d83a8845f49afc61043c79a5
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libcairo2
+Version: 1.12.14-r0
+Depends: libx11-6 (>= 1.5.0), libgcc1 (>= 4.7.2), libpng16-16 (>= 1.6.0), libxcb1 (>= 1.9), libxrender1 (>= 0.9.7), libpixman-1-0 (>= 0.29.2), libxext6 (>= 1.3.1), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libxcb-render0 (>= 1.9), libc6 (>= 2.17), libxcb-shm0 (>= 1.9), libxau6 (>= 1.0.7), libexpat1 (>= 2.1.0), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.10.2)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: libmenuw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: libudev0
+Version: 182-r7
+Depends: libgcc1 (>= 4.7.2), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libxau6
+Version: 1:1.0.7-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: libgpg-error0
+Version: 1.11-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libltdl7
+Version: 2.4.2-r6.0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+
+Package: alsa-utils
+Version: 1.0.26-r0
+Depends: alsa-utils-alsamixer, alsa-utils-alsactl, alsa-utils-iecset, alsa-utils-speakertest, alsa-utils-amixer, alsa-utils-midi, alsa-utils-aseqnet, alsa-utils-aconnect, alsa-utils-alsaconf, alsa-utils-alsaloop, alsa-utils-aplay, alsa-utils-alsaucm, alsa-utils-aseqdump
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107839
+
+Package: glib-networking-locale-en-gb
+Version: 2.28.7-r3
+Recommends: virtual-locale-en-gb
+Provides: glib-networking-locale, en-gb-translation
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107865
+
+Package: python-pickle
+Version: 2.7.3-r0.3
+Depends: libpython2.7-1.0 (>= 2.7.3), python-codecs, python-core, python-io, libc6 (>= 2.17), python-re
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libtirpc1
+Version: 0.2.3-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: e2fsprogs-mke2fs
+Version: 1.42.7-r0
+Depends: libgcc1 (>= 4.7.2), libblkid1 (>= 2.22.2), libcom-err2 (>= 1.42.7), libe2p2 (>= 1.42.7), libc6 (>= 2.17), libext2fs2 (>= 1.42.7), libuuid1 (>= 2.22.2)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: gst-plugins-base-alsa
+Version: 0.10.36-r7
+Depends: gstreamer (>= 0.10.36), libgstpbutils-0.10-0 (>= 0.10.36), libgstaudio-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libasound2 (>= 1.0.26), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: libformw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: libicudata50
+Version: 50.1.2-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: alsa-utils-aseqnet
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: wpa-supplicant-passphrase
+Version: 2.0-r1
+Depends: libgcrypt11 (>= 1.5.0), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: eglibc-binary-localedata-en-gb
+Version: 2.17-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107838
+Auto-Installed: yes
+
+Package: sysvinit
+Version: 2.88dsf-r11
+Depends: update-alternatives-cworth, sysvinit-pidof, sysvinit-inittab, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: alsa-utils-aseqdump
+Version: 1.0.26-r0
+Depends: libasound2 (>= 1.0.26), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107839
+Auto-Installed: yes
+
+Package: wireless-tools
+Version: 1:29-r4
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libdbus-glib-1-2
+Version: 0.100.2-r0
+Depends: libglib-2.0-0 (>= 2.34.3), libffi6 (>= 3.0.11), libdbus-1-3 (>= 1.6.8), libz1 (>= 1.2.7), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107840
+Auto-Installed: yes
+
+Package: libv4l
+Version: 1.0.1-r0
+Depends: libjpeg8 (>= 8d), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: gst-plugins-base-decodebin
+Version: 0.10.36-r7
+Depends: libffi6 (>= 3.0.11), libgstpbutils-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libz1 (>= 1.2.7), gstreamer (>= 0.10.36), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), gst-plugins-base
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: libe2p2
+Version: 1.42.7-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: mpg123
+Version: 1.21.0-r0
+Depends: libx11-6 (>= 1.5.0), libpulse0 (>= 3.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 3.0), libgcc1 (>= 4.7.2), libcap2 (>= 2.22), libx11-xcb1 (>= 1.5.0), libdbus-1-3 (>= 1.6.8), libxtst6 (>= 1.2.1), libuuid1 (>= 2.22.2), libltdl7 (>= 2.4.2), libice6 (>= 1.0.8), libxi6 (>= 1.7), libxcb1 (>= 1.9), libc6 (>= 2.17), libxau6 (>= 1.0.7), libsm6 (>= 1.2.1), libjson0 (>= 0.9), libxext6 (>= 1.3.1), libxdmcp6 (>= 1.1.1), libpulse-simple0 (>= 3.0)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1479107842
+
+Package: libdaemon0
+Version: 0.14-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: gst-plugins-base-ximagesink
+Version: 0.10.36-r7
+Depends: libx11-6 (>= 1.5.0), libz1 (>= 1.2.7), libxcb1 (>= 1.9), libgstvideo-0.10-0 (>= 0.10.36), libxml2 (>= 2.9.0), libxext6 (>= 1.3.1), gstreamer (>= 0.10.36), libgstinterfaces-0.10-0 (>= 0.10.36), libffi6 (>= 3.0.11), libice6 (>= 1.0.8), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libxau6 (>= 1.0.7), libsm6 (>= 1.2.1), libuuid1 (>= 2.22.2), gst-plugins-base, libxdmcp6 (>= 1.1.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107844
+Auto-Installed: yes
+
+Package: packagegroup-machine-base
+Version: 1.0-r76
+Provides: task-machine-base
+Replaces: task-machine-base
+Conflicts: task-machine-base
+Status: install ok installed
+Architecture: nuvoton_bsp
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libogg0
+Version: 1.3.0-r1
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107841
+Auto-Installed: yes
+
+Package: libnss-mdns
+Version: 0.10-r7
+Depends: avahi-daemon, libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: udev-extraconf
+Version: 1.0-r8
+Depends: udev
+Provides: udev-extra-rules
+Replaces: udev-extra-rules
+Conflicts: udev-extra-rules
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /etc/udev/mount.blacklist e9d30e0c326a0ab6bbe3f5d3085e1769
+Installed-Time: 1479107843
+Auto-Installed: yes
+
+Package: libavahi-core7
+Version: 0.6.31-r6.1
+Depends: libgcc1 (>= 4.7.2), libavahi-common3 (>= 0.6.31), libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107845
+Auto-Installed: yes
+
+Package: libfreetype6
+Version: 2.4.11-r0
+Depends: libc6 (>= 2.17)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1479107842
+Auto-Installed: yes
+

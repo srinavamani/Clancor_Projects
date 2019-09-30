@@ -1,0 +1,12 @@
+Package: poppler-data
+Version: 0.4.6-r0
+Description: Poppler is a PDF rendering library based on the xpdf-3.0 code base
+ Poppler is a PDF rendering library based on the xpdf-3.0 code base
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: Adobe
+Architecture: all
+OE: poppler-data
+Homepage: unknown
+Source: http://poppler.freedesktop.org/poppler-data-0.4.6.tar.gz

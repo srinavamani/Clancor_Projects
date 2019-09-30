@@ -1,0 +1,13 @@
+Package: gst-meta-x11-base
+Version: 0.10-r13
+Description: gst-meta-base version 0.10-r13
+ Gstreamer package groups
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: armv5te
+OE: gst-meta-base
+Homepage: unknown
+Recommends: gst-plugins-base-ximagesink, gst-plugins-base-xvimagesink
+Source: None

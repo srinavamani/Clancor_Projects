@@ -1,0 +1,13 @@
+Package: ccid
+Version: 1.4.8-r0
+Description: ccid version 1.4.8-r0
+ Generic USB CCID smart card reader driver
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+
+Architecture: armv5te
+OE: ccid
+Homepage: http://pcsclite.alioth.debian.org/ccid.html
+Depends: libc6 (>= 2.17), libusb-1.0-0 (>= 1.0.9), pcsc-lite
+Source: https://alioth.debian.org/frs/download.php/3768/ccid-1.4.8.tar.bz2

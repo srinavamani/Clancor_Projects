@@ -1,0 +1,11 @@
+# Mount and remove mmc partitions manually
+ACTION=="add" KERNEL=="mmcblk[0-9]p[0-9]", RUN+="/bin/sh /usr/share/scripts/mmc_autorun.sh"
+ACTION=="remove" KERNEL=="mmcblk[0-9]p[0-9]", RUN+="/bin/sh /usr/share/scripts/mmc_autoremove.sh"
+
+# Mount and remove thumb drive partitions manually
+ACTION=="add" KERNEL=="sd[a-z][0-9]", RUN+="/bin/sh /usr/share/scripts/usb_autorun.sh"
+ACTION=="remove" KERNEL=="sd[a-z][0-9]", RUN+="/bin/sh /usr/share/scripts/usb_autoremove.sh"
+
+# HID keyboard mouse detection
+ACTION=="add" KERNEL=="hidraw*", RUN+="/bin/sh /usr/share/scripts/hid_raw.sh start"
+ACTION=="remove" KERNEL=="hidraw*", RUN+="/bin/sh /usr/share/scripts/hid_raw.sh stop"

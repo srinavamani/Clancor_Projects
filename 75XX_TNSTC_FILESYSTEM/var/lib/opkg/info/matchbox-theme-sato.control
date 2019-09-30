@@ -1,0 +1,12 @@
+Package: matchbox-theme-sato
+Version: 0.1-r1
+Description: matchbox-theme-sato version 0.1-r1
+ Matchbox window manager Sato themes
+Section: x11/wm
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: CC-BY-SA-3.0
+Architecture: armv5te
+OE: matchbox-theme-sato
+Homepage: http://www.matchbox-project.org/
+Source: http://pokylinux.org/releases/sato/matchbox-theme-sato-0.1.tar.gz

@@ -1,0 +1,7 @@
+/dev/mux0
+115200
+debug
+connect '/usr/sbin/chat -f /etc/ppp/gprs'
+defaultroute
+usepeerdns
+noauth

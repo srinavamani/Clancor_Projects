@@ -1,0 +1,13 @@
+Package: libexif12
+Version: 0.6.21-r0
+Description: libexif version 0.6.21-r0
+ Library to read the extended image information (EXIF) from JPEG pictures
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: armv5te
+OE: libexif
+Homepage: http://sourceforge.net/projects/libexif
+Depends: libc6 (>= 2.17)
+Source: http://downloads.sourceforge.net/libexif/libexif-0.6.21.tar.bz2

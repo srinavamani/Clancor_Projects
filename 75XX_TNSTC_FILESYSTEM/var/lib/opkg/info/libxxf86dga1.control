@@ -1,0 +1,16 @@
+Package: libxxf86dga1
+Version: 1:1.1.3-r2
+Description: XFree86-DGA: XFree86 Direct Graphics Access extension library
+ libXxf86dga provides the XFree86-DGA extension, which allows direct
+ graphics access to a framebuffer-like region, and also allows relative
+ mouse reporting, et al.  It is mainly used by games and emulators for
+ games.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-X
+Architecture: armv5te
+OE: libxxf86dga
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxcb1 (>= 1.9), libxext6 (>= 1.3.1), libc6 (>= 2.17), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXxf86dga-1.1.3.tar.bz2 file://libxxf86dga-1.1.3_fix_for_x32.patch

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ROOT>
+  <SDKConfiguration>
+    <GPRS>YES</GPRS>
+    <GPS>NO</GPS>
+    <Wifi>NO</Wifi>
+    <Bluetooth>NO</Bluetooth>
+    <RFID>NO</RFID>
+    <Barcode>NO</Barcode>
+    <Audio>NO</Audio>
+    <Camera>NO</Camera>
+    <FingerPrint>NO</FingerPrint>
+    <Touch_Panel>NO</Touch_Panel>
+    <Display>320x240</Display>
+    <Smart_Card>NO</Smart_Card>
+    <Magnetic_Card_Reader>NO</Magnetic_Card_Reader>
+    <SD_Card_Support>YES</SD_Card_Support>
+  <Ethernet>NO</Ethernet>
+<Mic>NO</Mic>
+<Weighing_Scale>NO</Weighing_Scale>
+</SDKConfiguration>
+  <ADC>
+        <MAX72>454</MAX72>
+        <MIN72>388</MIN72>
+        <MAX71>625</MAX71>
+        <MIN71>534</MIN71>
+  </ADC>
+  <PowerManagement>
+       <KeypadLock>0</KeypadLock>
+       <Idletime>0</Idletime>
+       <Standby>0</Standby>
+       <Shutdown>0</Shutdown>
+   </PowerManagement>
+
+<GADGETCONFIGURATION>
+<GadgetOption>0</GadgetOption>
+<MassStorage>0</MassStorage>
+</GADGETCONFIGURATION>
+
+<TFTSettings>
+<Brightness>4</Brightness>
+</TFTSettings>
+
+<NTPStatus>
+<NTPEnable>0</NTPEnable>
+</NTPStatus>
+
+<NetworkApnNames>
+<APN></APN>
+</NetworkApnNames>
+
+<NetworkEthernetConfiguration>						
+<EthIpAddress>192.168.0.181</EthIpAddress>
+<EthSubnet>255.255.255.0</EthSubnet>
+<EthGateway>192.168.0.121</EthGateway>
+</NetworkEthernetConfiguration>
+
+<WIFISettings>
+<EnableWIFI>False</EnableWIFI>
+</WIFISettings>
+
+<AutoBoot>
+<Enable>True</Enable>
+</AutoBoot>
+
+<GPRSSettings>
+<AlwaysON>False</AlwaysON>
+</GPRSSettings>
+
+<USBSettings>
+<EnableUSB>False</EnableUSB>
+</USBSettings>
+<MachineID></MachineID>
+<DeviceModel></DeviceModel>
+
+<BarcodeScan>
+<1D>NO</1D>
+<2D>NO</2D>
+</BarcodeScan>
+
+<PrinterSettings>
+<EnablePrint>True</EnablePrint>
+</PrinterSettings>
+
+<ETHERNETSettings>
+</ETHERNETSettings>
+</ROOT>

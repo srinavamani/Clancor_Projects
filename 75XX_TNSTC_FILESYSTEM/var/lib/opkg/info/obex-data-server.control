@@ -1,0 +1,14 @@
+Package: obex-data-server
+Version: 0.4.6-r0
+Description: obex-data-server version 0.4.6-r0
+ obex-data-server is a D-Bus service providing high-level OBEX client and
+ server side functionality
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: armv5te
+OE: obex-data-server
+Homepage: unknown
+Depends: libdbus-glib-1-2 (>= 0.100.2), bluez4 (>= 4.101), gdk-pixbuf (>= 2.26.5), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libopenobex1 (>= 1.5), libusb-0.1-4 (>= 0.1.4)
+Source: http://tadas.dailyda.com/software/obex-data-server-0.4.6.tar.gz

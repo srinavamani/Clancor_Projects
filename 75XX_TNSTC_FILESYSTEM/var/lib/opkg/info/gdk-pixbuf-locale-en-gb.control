@@ -1,0 +1,15 @@
+Package: gdk-pixbuf-locale-en-gb
+Version: 2.26.5-r1
+Description: gdk-pixbuf version 2.26.5-r1 - en_GB translations
+ Image loading library for GTK+  This package contains language
+ translation files for the en_GB locale.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2
+Architecture: armv5te
+OE: gdk-pixbuf
+Homepage: http://www.gtk.org/
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, gdk-pixbuf-locale
+Source: http://ftp.acc.umu.se/pub/GNOME/sources/gdk-pixbuf/2.26/gdk-pixbuf-2.26.5.tar.xz file://hardcoded_libtool.patch file://configure_fix.patch file://extending-libinstall-dependencies.patch file://pngversion.patch

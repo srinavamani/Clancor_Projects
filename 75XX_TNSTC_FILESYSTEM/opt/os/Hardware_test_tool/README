@@ -1,0 +1,25 @@
+--------------------------------------------
+Hardware test tool
+--------------------------------------------
+Date - 20/03/2015
+version - V0.1
+
+Installation:
+
+1. Extract this (Hardware_test_tool.tar.gz) tar file in /home/root/
+	
+	cp Hardware_test_tool.tar.gz /home/root/
+
+	tar xvf Hardware_test_tool.tar.gz
+
+2. Run this script file using the following command
+
+	sh module_testing.sh
+
+3. Enter the valid data based upon the testing requirement
+
+
+--------------------------------------------
+
+
+

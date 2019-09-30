@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=ClanCor SystemInfo
+Comment=System Information
+Exec=/usr/bin/App_SystemInfo
+Icon=/usr/share/pixmaps/clancor_utility.png
+Terminal=false
+Categories=Utility;
+StartupNotify=true

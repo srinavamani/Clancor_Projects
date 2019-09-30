@@ -1,0 +1,17 @@
+Package: lrzsz
+Version: 0.12.20-r5
+Description: Tools for zmodem/xmodem/ymodem file transfer
+ Lrzsz is a cosmetically modified zmodem/ymodem/xmodem package built from
+ the public-domain version of Chuck Forsberg's rzsz package. These
+ programs use error correcting protocols ({z,x,y}modem) to send (sz, sx,
+ sb) and receive (rz, rx, rb) files over a dial-in serial port from a
+ variety of programs running under various operating systems.
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: armv5te
+OE: lrzsz
+Homepage: http://www.ohse.de/uwe/software/lrzsz.html
+Depends: update-alternatives-cworth, libc6 (>= 2.17)
+Source: http://www.ohse.de/uwe/releases/lrzsz-0.12.20.tar.gz file://autotools.patch file://makefile.patch file://gettext.patch file://lrzsz_fix_for_automake-1.12.patch

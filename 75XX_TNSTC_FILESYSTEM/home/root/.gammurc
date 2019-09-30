@@ -1,0 +1,4 @@
+[gammu]
+
+device = /dev/mux2
+connection = at115200

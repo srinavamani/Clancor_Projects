@@ -1,0 +1,14 @@
+Package: libowl-av0
+Version: 0.1+git0+03030c41ea578cfa74a2ffceb875675b248318ae-r3
+Description: libowl-av version 0.1+gitAUTOINC+03030c41ea578cfa74a2ffceb875675b248318ae-r3
+ OpenedHand Widget Library Audio/Video
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2+
+Architecture: armv5te
+OE: libowl-av
+Homepage: http://www.o-hand.com
+Depends: libgcc1 (>= 4.7.2), gst-meta-base, libxcb1 (>= 1.9), libxrender1 (>= 0.9.7), libpixman-1-0 (>= 0.29.2), libxml2 (>= 2.9.0), libxext6 (>= 1.3.1), libz1 (>= 1.2.7), harfbuzz (>= 0.9.12), libfreetype6 (>= 2.4.11), libxcb-shm0 (>= 1.9), libffi6 (>= 3.0.11), libgstinterfaces-0.10-0 (>= 0.10.36), gdk-pixbuf (>= 2.26.5), libgtk-2.0 (>= 2.24.15), libcairo2 (>= 1.12.14), libstdc++6 (>= 4.7.2), libglib-2.0-0 (>= 2.34.3), libicudata50 (>= 50.1.2), libxau6 (>= 1.0.7), libicuuc50 (>= 50.1.2), libx11-6 (>= 1.5.0), libatk-1.0-0 (>= 2.6.0), libc6 (>= 2.17), pango (>= 1.32.5), libicule50 (>= 50.1.2), libpng16-16 (>= 1.6.0), gstreamer (>= 0.10.36), libxcb-render0 (>= 1.9), libexpat1 (>= 2.1.0), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.10.2)
+Recommends: gst-meta-video, gst-meta-audio
+Source: git://git.yoctoproject.org/libowl-av;protocol=git

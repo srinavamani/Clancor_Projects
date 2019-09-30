@@ -1,0 +1,14 @@
+Package: hdparm
+Version: 9.43-r0
+Description: hdparm version 9.43-r0
+ hdparm is a Linux shell utility for viewing and manipulating various IDE
+ drive and driver parameters.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: armv5te
+OE: hdparm
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), update-alternatives-cworth, libc6 (>= 2.17)
+Source: http://downloads.sourceforge.net/hdparm/hdparm-9.43.tar.gz

@@ -1,0 +1,15 @@
+Package: vte-locale-en-gb
+Version: 0.28.2-r6
+Description: vte version 0.28.2-r6 - en_GB translations
+ vte is a virtual terminal emulator  This package contains language
+ translation files for the en_GB locale.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+
+Architecture: armv5te
+OE: vte
+Homepage: unknown
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, vte-locale
+Source: http://ftp.gnome.org/pub/GNOME/sources/vte/0.28/vte-0.28.2.tar.bz2;name=archive file://obsolete_automake_macros.patch

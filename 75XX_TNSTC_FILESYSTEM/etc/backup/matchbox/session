@@ -1,0 +1,32 @@
+#!/bin/sh
+
+. /etc/formfactor/config
+
+if [ "$HAVE_TOUCHSCREEN" = "1" ]; then
+    SHOWCURSOR="no"
+else
+    SHOWCURSOR="no"
+fi
+
+if [ "$HAVE_KEYBOARD" = "1" ]; then
+    KEYBOARD_APPLET=""
+else
+    KEYBOARD_APPLET="keyboard"
+fi
+
+exec /usr/bin/toolbar &
+
+matchbox-desktop &
+
+# Lines containing feature-[foo] are removed at build time if the machine
+# doesn't have the feature "foo".
+
+START_APPLETS=showdesktop,windowselector
+END_APPLETS=clock,systray,startup-notify,notify
+cp /usr/share/APPS/* usr/share/applications/
+#matchbox-panel --titlebar --start-applets $START_APPLETS --end-applets $END_APPLETS &
+matchbox-panel --geometry=320x20 &
+backlight=`cat /usr/share/status/backlight_read_time`
+xset -display :0.0 s $backlight
+
+exec matchbox-window-manager -theme Emacs -use_desktop_mode plain -use_titlebar no -use_cursor $SHOWCURSOR $@ 

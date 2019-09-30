@@ -1,0 +1,17 @@
+Package: libxrender1
+Version: 1:0.9.7-r0
+Description: XRender: X Rendering Extension library
+ The X Rendering Extension (Render) introduces digital image composition
+ as the foundation of a new rendering model within the X Window System.
+ Rendering geometric figures is accomplished by client-side tessellation
+ into either triangles or trapezoids.  Text is drawn by loading glyphs
+ into the server and rendering sets of them.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-style
+Architecture: armv5te
+OE: libxrender
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXrender-0.9.7.tar.bz2

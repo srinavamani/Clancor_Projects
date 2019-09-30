@@ -1,0 +1,13 @@
+Package: libmb1
+Version: 1.10-r0
+Description: libmatchbox version 1.10-r0
+ Matchbox window manager core library
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2+
+Architecture: armv5te
+OE: libmatchbox
+Homepage: http://matchbox-project.org/
+Depends: libx11-6 (>= 1.5.0), libxft2 (>= 2.3.1), libpng16-16 (>= 1.6.0), libxcb1 (>= 1.9), libxrender1 (>= 0.9.7), libxext6 (>= 1.3.1), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libxsettings-client0 (>= 0.10), libc6 (>= 2.17), libxau6 (>= 1.0.7), libexpat1 (>= 2.1.0), libjpeg8 (>= 8d), libxdmcp6 (>= 1.1.1), libfontconfig1 (>= 2.10.2)
+Source: http://downloads.yoctoproject.org/releases/matchbox/libmatchbox/1.10/libmatchbox-1.10.tar.gz file://check.m4

@@ -1,0 +1,13 @@
+Package: packagegroup-core-x11-sato-games
+Version: 1.0-r33
+Description: Sato desktop - games
+ Sato desktop
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-core-x11-sato
+Homepage: unknown
+Depends: oh-puzzles
+Source: None

@@ -1,0 +1,13 @@
+Package: matchbox-session-sato
+Version: 0.1-r30
+Description: matchbox-session-sato version 0.1-r30
+ Custom MB session files for poky
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2.0+
+Architecture: nuvoton_bsp
+OE: matchbox-session-sato
+Homepage: http://www.matchbox-project.org/
+Depends: matchbox-desktop-sato, formfactor, gtk-sato-engine, matchbox-theme-sato, gtk-theme-sato, matchbox-session, gconf, matchbox-panel-2
+Source: file://session file://matchbox-session-sato.schemas

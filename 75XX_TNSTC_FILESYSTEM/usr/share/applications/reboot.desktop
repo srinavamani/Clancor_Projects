@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Reboot
+Comment=Reboot the machine safely
+Exec=reboot
+Icon=system-shutdown
+Terminal=false
+Categories=Settings;
+StartupNotify=true

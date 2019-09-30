@@ -1,0 +1,14 @@
+Package: libpciaccess0
+Version: 0.13.1-r1
+Description: Generic PCI access library for X
+ libpciaccess provides functionality for X to access the PCI bus and
+ devices in a platform-independent way.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & MIT-style
+Architecture: armv5te
+OE: libpciaccess
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.17)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libpciaccess-0.13.1.tar.bz2

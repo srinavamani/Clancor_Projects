@@ -1,0 +1,14 @@
+Package: setserial
+Version: 2.17-r3
+Description: Controls the configuration of serial ports
+ setserial is a program designed to set and/or report the configuration
+ information associated with a serial port
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2.0
+Architecture: armv5te
+OE: setserial
+Homepage: http://setserial.sourceforge.net
+Depends: libc6 (>= 2.17)
+Source: http://downloads.sourceforge.net/setserial/setserial-2.17.tar.gz file://add_stdlib.patch

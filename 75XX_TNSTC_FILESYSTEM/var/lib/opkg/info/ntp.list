@@ -1,0 +1,3 @@
+/usr/bin/ntpd
+/etc/ntp.conf
+/etc/init.d/ntpd

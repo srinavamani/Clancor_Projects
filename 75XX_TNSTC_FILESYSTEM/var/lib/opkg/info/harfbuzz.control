@@ -1,0 +1,13 @@
+Package: harfbuzz
+Version: 0.9.12-r0
+Description: Text shaping library
+ HarfBuzz is an OpenType text shaping engine.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & ICU
+Architecture: armv5te
+OE: harfbuzz
+Homepage: http://www.freedesktop.org/wiki/Software/HarfBuzz
+Depends: libgcc1 (>= 4.7.2), libicule50 (>= 50.1.2), libstdc++6 (>= 4.7.2), libffi6 (>= 3.0.11), libfreetype6 (>= 2.4.11), libcairo2 (>= 1.12.14), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), libicudata50 (>= 50.1.2), libicuuc50 (>= 50.1.2)
+Source: http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-0.9.12.tar.bz2 file://disable_graphite.patch file://avoid_double_version_h.patch

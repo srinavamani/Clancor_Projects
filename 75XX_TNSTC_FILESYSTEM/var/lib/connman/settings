@@ -1,0 +1,10 @@
+[global]
+OfflineMode=false
+
+[Wired]
+Enable=true
+Power=true
+
+[WiFi]
+Enable=true
+Power=true

@@ -1,0 +1,15 @@
+Package: libgnome-keyring-locale-en-gb
+Version: 2.32.0-r3
+Description: libgnome-keyring version 2.32.0-r3 - en_GB translations
+ Compatibility library for accessing secrets  This package contains
+ language translation files for the en_GB locale.
+Section: x11/gnome/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2 & LGPLv2+ & LGPLv2.1+
+Architecture: armv5te
+OE: libgnome-keyring
+Homepage: http://www.gnome.org/
+Recommends: virtual-locale-en-gb
+Provides: libgnome-keyring-locale, en-gb-translation
+Source: http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/2.32/libgnome-keyring-2.32.0.tar.bz2;name=archive

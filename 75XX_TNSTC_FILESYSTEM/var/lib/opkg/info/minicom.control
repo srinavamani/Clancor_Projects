@@ -1,0 +1,14 @@
+Package: minicom
+Version: 2.6.2-r0
+Description: Text-based modem control and terminal emulation program
+ Minicom is a text-based modem control and terminal emulation program for
+ Unix-like operating systems
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: armv5te
+OE: minicom
+Homepage: unknown
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.17)
+Source: http://alioth.debian.org/frs/download.php/3869/minicom-2.6.2.tar.gz file://allow.to.disable.lockdev.patch

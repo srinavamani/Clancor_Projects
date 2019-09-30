@@ -1,0 +1,16 @@
+Package: xmodmap
+Version: 1:1.0.7-r8.0
+Description: Utility for modifying keymaps and pointer button mappings in X
+ The xmodmap program is used to edit and display the keyboard modifier map
+ and keymap table that are used by client applications to convert event
+ keycodes into keysyms. It is usually run from the user's session startup
+ script to configure the keyboard according to personal tastes.
+Section: x11/apps
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: armv5te
+OE: xmodmap
+Homepage: http://www.x.org/
+Depends: libx11-6 (>= 1.5.0), libc6 (>= 2.17)
+Source: http://xorg.freedesktop.org/releases/individual/app/xmodmap-1.0.7.tar.bz2 file://gnu-source.patch

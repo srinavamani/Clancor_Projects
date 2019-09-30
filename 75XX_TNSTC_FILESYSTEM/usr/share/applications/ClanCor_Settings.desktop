@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=ClanCor Settings
+Comment=GPRS,WIFI,Power,Ethernet,Brightnes,/etc..
+Exec=/usr/bin/App_Settings
+Icon=/usr/share/pixmaps/clancor_settings.png
+Terminal=false
+Categories=Settings;
+StartupNotify=true

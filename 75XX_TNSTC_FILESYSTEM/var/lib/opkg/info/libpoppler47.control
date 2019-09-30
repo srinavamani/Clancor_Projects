@@ -1,0 +1,13 @@
+Package: libpoppler47
+Version: 0.28.1-r0
+Description: Poppler is a PDF rendering library based on the xpdf-3.0 code base
+ Poppler is a PDF rendering library based on the xpdf-3.0 code base
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: armv5te
+OE: poppler
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), libstdc++6 (>= 4.7.2), libpng16-16 (>= 1.6.0), liblzma5 (>= 5.1.2alpha), libz1 (>= 1.2.7), libfreetype6 (>= 2.4.11), libc6 (>= 2.17), libtiff5 (>= 4.0.3), libfontconfig1 (>= 2.10.2), libexpat1 (>= 2.1.0), libjpeg8 (>= 8d), lcms (>= 1.17)
+Source: http://poppler.freedesktop.org/poppler-0.28.1.tar.xz

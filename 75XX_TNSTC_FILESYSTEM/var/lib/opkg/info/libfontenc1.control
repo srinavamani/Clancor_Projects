@@ -1,0 +1,14 @@
+Package: libfontenc1
+Version: 1:1.1.1-r0
+Description: X font encoding library
+ libfontenc is a library which helps font libraries portably determine and
+ deal with different encodings of fonts.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: armv5te
+OE: libfontenc
+Homepage: http://www.x.org
+Depends: libz1 (>= 1.2.7), libc6 (>= 2.17)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libfontenc-1.1.1.tar.bz2

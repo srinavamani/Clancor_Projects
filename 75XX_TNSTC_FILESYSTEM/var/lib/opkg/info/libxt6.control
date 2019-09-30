@@ -1,0 +1,21 @@
+Package: libxt6
+Version: 1:1.1.3-r0
+Description: Xt: X Toolkit Intrinsics library
+ The Intrinsics are a programming library tailored to the special
+ requirements of user interface construction within a network window
+ system, specifically the X Window System. The Intrinsics and a widget set
+ make up an X Toolkit. The Intrinsics provide the base mechanism necessary
+ to build a wide variety of interoperating widget sets and application
+ environments. The Intrinsics are a layer on top of Xlib, the C Library X
+ Interface. They extend the fundamental abstractions provided by the X
+ Window System while still remaining independent of any particular user
+ interface policy or style.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & MIT-style
+Architecture: armv5te
+OE: libxt
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxcb1 (>= 1.9), libice6 (>= 1.0.8), libc6 (>= 2.17), libxau6 (>= 1.0.7), libsm6 (>= 1.2.1), libuuid1 (>= 2.22.2), libxdmcp6 (>= 1.1.1)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXt-1.1.3.tar.bz2 file://libxt_fix_for_x32.patch

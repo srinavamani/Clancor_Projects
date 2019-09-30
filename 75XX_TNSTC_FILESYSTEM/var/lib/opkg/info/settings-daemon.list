@@ -1,0 +1,3 @@
+/etc/X11/Xsession.d/70settings-daemon.sh
+/usr/bin/settings-daemon
+/etc/gconf/schemas/settings-daemon.schemas

@@ -1,0 +1,17 @@
+Package: libxmu6
+Version: 1:1.1.1-r0
+Description: Xmu and Xmuu: X Miscellaneous Utility libraries
+ The Xmu Library is a collection of miscellaneous (some might say random)
+ utility functions that have been useful in building various applications
+ and widgets. This library is required by the Athena Widgets. A subset of
+ the functions that do not rely on the Athena Widgets (libXaw) or X
+ Toolkit Instrinsics (libXt) are provided in a second library, libXmuu.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & MIT-style
+Architecture: armv5te
+OE: libxmu
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxt6 (>= 1.1.3), libxcb1 (>= 1.9), libxext6 (>= 1.3.1), libice6 (>= 1.0.8), libc6 (>= 2.17), libxau6 (>= 1.0.7), libsm6 (>= 1.2.1), libuuid1 (>= 2.22.2), libxdmcp6 (>= 1.1.1)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXmu-1.1.1.tar.bz2

@@ -1,0 +1,16 @@
+Package: packagegroup-base-apm
+Version: 1.0-r76
+Description: APM support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: apmd, apm
+Provides: task-base-apm
+Replaces: task-base-apm
+Conflicts: task-base-apm
+Source: None

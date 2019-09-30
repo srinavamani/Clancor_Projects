@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=ClanCor Utilities
+Comment=FingerPrint,Audio,Barcode,Printer,etc.,
+Exec=/usr/bin/App_Utilities
+Icon=/usr/share/pixmaps/clancor_utility.png
+Terminal=false
+Categories=Utility;
+StartupNotify=true

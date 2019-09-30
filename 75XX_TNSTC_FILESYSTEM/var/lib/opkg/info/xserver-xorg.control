@@ -1,0 +1,17 @@
+Package: xserver-xorg
+Version: 2:1.14.0-r8.1
+Description: xserver-xorg version 1.14.0-r8.1
+ The X.Org X server
+Section: x11/base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-X
+Architecture: armv5te
+OE: xserver-xorg
+Homepage: http://www.x.org
+Depends: libgcc1 (>= 4.7.2), libpixman-1-0 (>= 0.29.2), libdrm2 (>= 2.4.42), libpciaccess0 (>= 0.13.1), libudev0 (>= 182), libc6 (>= 2.17), libxfont1 (>= 1.4.5), libxau6 (>= 1.0.7), libgcrypt11 (>= 1.5.0), libxdmcp6 (>= 1.1.1)
+Recommends: xserver-xorg-security-policy, rgb, xkeyboard-config, xserver-xf86-config, xkbcomp
+Provides: xserver-xorg-extension-extmod, xserver-xorg-extension-dri, xorg-abi-video-14, xorg-abi-input-19, xserver-xorg-extension-dbe, xserver-xorg-extension-record, xserver-xorg-extension-dri2
+Replaces: xserver-xorg-extension-dbe, xserver-xorg-extension-record, xserver-xorg-extension-extmod, xserver-xorg-extension-dri2, xserver-xorg-extension-dri
+Conflicts: xserver-xorg-extension-dbe, xserver-xorg-extension-record, xserver-xorg-extension-extmod, xserver-xorg-extension-dri2, xserver-xorg-extension-dri
+Source: http://xorg.freedesktop.org/releases/individual/xserver/xorg-server-1.14.0.tar.bz2 file://macro_tweak.patch file://crosscompile.patch file://fix_open_max_preprocessor_error.patch file://mips64-compiler.patch file://aarch64.patch file://fix_compilation_when_not_using_xinerama.patch file://0001-dixstruct.h-fix-segfaults-char-is-unsigned-for-ARM-a.patch

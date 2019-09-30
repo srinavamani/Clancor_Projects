@@ -1,0 +1,2 @@
+#*/5 * * * * sh /usr/share/scripts/backup.sh
+#*/1 * * * * sh /usr/share/scripts/dbbackup.sh

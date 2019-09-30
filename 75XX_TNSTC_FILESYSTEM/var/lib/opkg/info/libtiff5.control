@@ -1,0 +1,13 @@
+Package: libtiff5
+Version: 4.0.3-r0
+Description: tiff version 4.0.3-r0
+ This software provides support for the Tag Image File Format (TIFF)
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD-2-Clause
+Architecture: armv5te
+OE: tiff
+Homepage: http://www.remotesensing.org/libtiff/
+Depends: libgcc1 (>= 4.7.2), liblzma5 (>= 5.1.2alpha), libz1 (>= 1.2.7), libjpeg8 (>= 8d), libc6 (>= 2.17)
+Source: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz file://libtool2.patch file://libtiff-CVE-2013-1960.patch file://libtiff-CVE-2013-4232.patch file://libtiff-CVE-2013-4243.patch

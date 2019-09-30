@@ -1,0 +1,13 @@
+Package: lcms
+Version: 1.17-r4
+Description: lcms version 1.17-r4
+ Little cms is a small-footprint, speed optimized color management engine.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: armv5te
+OE: lcms
+Homepage: unknown
+Depends: libtiff5 (>= 4.0.3), libjpeg8 (>= 8d), libc6 (>= 2.17)
+Source: http://downloads.sourceforge.net/lcms/lcms-1.17.tar.gz

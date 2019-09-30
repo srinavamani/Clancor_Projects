@@ -1,0 +1,13 @@
+/usr/bin/pdffonts
+/usr/bin/pdfimages
+/usr/bin/pdfinfo
+/usr/bin/pdftocairo
+/usr/lib/libpoppler-cpp.so.0
+/usr/bin/pdftotext
+/usr/bin/pdfunite
+/usr/bin/pdftops
+/usr/bin/pdfseparate
+/usr/lib/libpoppler-cpp.so.0.2.0
+/usr/bin/pdfdetach
+/usr/bin/pdftoppm
+/usr/bin/pdftohtml

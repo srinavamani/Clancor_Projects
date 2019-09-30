@@ -1,0 +1,14 @@
+/usr/bin/Xorg
+/usr/lib/xorg/modules/libfb.so
+/usr/lib/xorg/modules/libvgahw.so
+/usr/share/X11/xorg.conf.d/
+/usr/bin/X
+/usr/lib/xorg/
+/usr/lib/xorg/modules/libshadowfb.so
+/usr/lib/xorg/modules/
+/usr/lib/xorg/protocol.txt
+/usr/lib/xorg/modules/libfbdevhw.so
+/usr/share/X11/xorg.conf.d/10-evdev.conf
+/usr/lib/xorg/modules/libvbe.so
+/usr/bin/cvt
+/usr/lib/xorg/modules/libshadow.so

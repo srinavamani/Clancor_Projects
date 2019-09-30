@@ -1,0 +1,11 @@
+prefix=/home/elinux1/projects/Gokul_Backup/Nuvoton/Source/applications/libnfc-1.6.0-rc1/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnfc
+Description: Near Field Communication (NFC) library
+Version: 1.6.0-rc1
+Requires: 
+Libs: -L${libdir} -lnfc
+Cflags: -I${includedir}

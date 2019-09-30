@@ -1,0 +1,3 @@
+/etc/ppp/peers/host
+/usr/sbin/ppp-dialin
+/etc/ppp/peers/

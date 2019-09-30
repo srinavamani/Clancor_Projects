@@ -1,0 +1,14 @@
+Package: eglibc-gconv-iso8859-1
+Version: 2.17-r0
+Description: eglibc-locale version 2.17-r0
+ gconv module for character set iso8859-1
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2.1
+Architecture: armv5te
+OE: eglibc-locale
+Homepage: unknown
+Depends: eglibc-gconv, libc6 (>= 2.17)
+Provides: glibc-gconv-iso8859-1
+Source: None

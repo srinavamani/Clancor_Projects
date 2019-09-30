@@ -1,0 +1,16 @@
+Package: packagegroup-base-zeroconf
+Version: 1.0-r76
+Description: Zeroconf support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: avahi-daemon
+Provides: task-base-zeroconf
+Replaces: task-base-zeroconf
+Conflicts: task-base-zeroconf
+Source: None

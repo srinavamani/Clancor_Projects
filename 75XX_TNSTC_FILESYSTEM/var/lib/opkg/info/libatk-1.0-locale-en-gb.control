@@ -1,0 +1,15 @@
+Package: libatk-1.0-locale-en-gb
+Version: 2.6.0-r0
+Description: atk version 2.6.0-r0 - en_GB translations
+ An accessibility toolkit for GNOME.  This package contains language
+ translation files for the en_GB locale.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2+
+Architecture: armv5te
+OE: atk
+Homepage: http://live.gnome.org/GAP/
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, atk-locale
+Source: http://download.gnome.org/sources/atk/2.6/atk-2.6.0.tar.xz

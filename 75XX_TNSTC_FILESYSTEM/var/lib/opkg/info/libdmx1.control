@@ -1,0 +1,16 @@
+Package: libdmx1
+Version: 1:1.1.2-r0
+Description: DMX: Distributed Multihead X extension library
+ The DMX extension provides support for communication with and control of
+ Xdmx(1) server. Attributes of the Xdmx(1) server and of the back-end
+ screens attached to the server can be queried and modified via this
+ protocol.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: armv5te
+OE: libdmx
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxcb1 (>= 1.9), libxext6 (>= 1.3.1), libc6 (>= 2.17), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libdmx-1.1.2.tar.bz2

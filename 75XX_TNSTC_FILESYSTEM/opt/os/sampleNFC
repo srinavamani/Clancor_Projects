@@ -1,0 +1,8 @@
+nfc-list uses libnfc 
+NFC device: pn532_uart:/dev/ttyS8 opened
+1 ISO14443A passive target(s) found:
+ISO/IEC 14443A (106 kbps) target:
+    ATQA (SENS_RES): 00  04  
+       UID (NFCID1): 63  52  95  bf  
+      SAK (SEL_RES): 08  
+

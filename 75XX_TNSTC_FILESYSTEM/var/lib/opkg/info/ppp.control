@@ -1,0 +1,14 @@
+Package: ppp
+Version: 2.4.5-r6
+Description: Point-to-Point Protocol (PPP) support
+ ppp (Paul's PPP Package) is an open source package which implements the
+ Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD & GPLv2+ & LGPLv2+ & PD
+Architecture: armv5te
+OE: ppp
+Homepage: http://samba.org/ppp/
+Depends: libpcap1 (>= 1.3.0), libc6 (>= 2.17)
+Source: http://ppp.samba.org/ftp/ppp/ppp-2.4.5.tar.gz file://makefile.patch file://cifdefroute.patch file://pppd-resolv-varrun.patch file://enable-ipv6.patch file://makefile-remove-hard-usr-reference.patch file://update_if_pppol2tp.patch file://pon file://poff file://init file://ip-up file://ip-down file://08setupdns file://92removedns

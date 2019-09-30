@@ -1,0 +1,13 @@
+Package: shared-mime-info
+Version: 1.1-r0
+Description: shared-mime-info version 1.1-r0
+ shared MIME database and spec
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2+
+Architecture: armv5te
+OE: shared-mime-info
+Homepage: http://freedesktop.org/wiki/Software/shared-mime-info
+Depends: libglib-2.0-0 (>= 2.34.3), libxml2 (>= 2.9.0), libc6 (>= 2.17)
+Source: file://parallelmake.patch file://install-data-hook.patch http://freedesktop.org/~hadess/shared-mime-info-1.1.tar.xz

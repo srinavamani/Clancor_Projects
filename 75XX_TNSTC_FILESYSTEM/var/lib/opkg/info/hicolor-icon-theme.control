@@ -1,0 +1,13 @@
+Package: hicolor-icon-theme
+Version: 0.12-r1
+Description: hicolor-icon-theme version 0.12-r1
+ default icon theme that all icon themes automatically inherit from.
+Section: unknown
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: all
+OE: hicolor-icon-theme
+Homepage: http://icon-theme.freedesktop.org/wiki/HicolorTheme
+Depends: hicolor-icon-theme
+Source: http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.12.tar.gz file://index.theme

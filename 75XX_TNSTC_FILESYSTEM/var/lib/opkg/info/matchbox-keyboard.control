@@ -1,0 +1,14 @@
+Package: matchbox-keyboard
+Version: 0.0+git0+b38f24036cff3be6c2fbcf9ca9881803e69003ac-r4
+Description: matchbox-keyboard version 0.0+gitAUTOINC+b38f24036cff3be6c2fbcf9ca9881803e69003ac-r4
+ Matchbox virtual keyboard for X11
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: armv5te
+OE: matchbox-keyboard
+Homepage: http://matchbox-project.org
+Depends: libx11-6 (>= 1.5.0), formfactor, libxft2 (>= 2.3.1), libpng16-16 (>= 1.6.0), libxrender1 (>= 0.9.7), dbus-wait, libc6 (>= 2.17), libexpat1 (>= 2.1.0), libfakekey0 (>= 0.0+git0+e327ff049b8503af2dadffa84370a0860b9fb682)
+Recommends: matchbox-keyboard-applet
+Source: git://git.yoctoproject.org/matchbox-keyboard;protocol=git file://configure_fix.patch;maxrev=1819 file://single-instance.patch file://80matchboxkeyboard.shbg file://png-fix.patch

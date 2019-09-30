@@ -1,0 +1,10 @@
+#ACTION=="add", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="6133", SYMLINK+="mosambe"
+# For MOSAMBE ports
+
+ACTION=="add", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="6133", RUN+="/bin/sh /opt/mosambe.sh" 
+ACTION=="remove", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="6133", RUN+="/bin/sh /bin/rm /dev/mosambe"
+
+# For GPRS 3G ports
+ 
+ACTION=="add", ATTRS{idVendor}=="1519", ATTRS{idProduct}=="0020", RUN+="/bin/sh /opt/mosambe_gprs.sh"
+ACTION=="remove", ATTRS{idVendor}=="1519", ATTRS{idProduct}=="0020", RUN+="/bin/sh /bin/rm /dev/ttyGPRS*"

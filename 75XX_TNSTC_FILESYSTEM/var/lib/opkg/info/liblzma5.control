@@ -1,0 +1,13 @@
+Package: liblzma5
+Version: 5.1.2alpha-r0
+Description: xz version 5.1.2alpha-r0
+ utils for managing LZMA compressed files
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: armv5te
+OE: xz
+Homepage: http://tukaani.org/xz/
+Depends: libc6 (>= 2.17)
+Source: http://tukaani.org/xz/xz-5.1.2alpha.tar.gz

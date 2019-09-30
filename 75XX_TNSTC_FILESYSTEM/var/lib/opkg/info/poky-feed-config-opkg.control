@@ -1,0 +1,12 @@
+Package: poky-feed-config-opkg
+Version: 1.0-r2
+Description: poky-feed-config-opkg version 1.0-r2
+ Poky example feed configuration
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: poky-feed-config-opkg
+Homepage: unknown
+Source: None

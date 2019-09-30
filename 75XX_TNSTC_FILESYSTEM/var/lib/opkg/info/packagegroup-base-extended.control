@@ -1,0 +1,16 @@
+Package: packagegroup-base-extended
+Version: 1.0-r76
+Description: packagegroup-base version 1.0-r76
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: packagegroup-base, packagegroup-base-bluetooth, packagegroup-base-3g, packagegroup-base-nfc, packagegroup-base-wifi
+Provides: task-base-extended
+Replaces: task-base-extended
+Conflicts: task-base-extended
+Source: None

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Mosambee POS
+Comment=Payment Partner
+Exec=/usr/bin/mosambe_only
+Icon=/usr/share/pixmaps/clancor_utility.png
+Terminal=false
+Categories=Utility;
+StartupNotify=true

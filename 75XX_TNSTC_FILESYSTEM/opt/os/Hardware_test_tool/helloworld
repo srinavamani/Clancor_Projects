@@ -1,0 +1,48 @@
+echo ~E0043-----Test Report for 72XX----- BML~^! > /dev/printer
+echo ~E0030 Date - 13 Oct 2016 BML~^! > /dev/printer
+echo ~E0029 Time - 12:23:59 BML~^! > /dev/printer
+echo ~E0035Machine ID - gokulraj. BML~^! > /dev/printer
+echo ~E0032Model ID - sg002... BML~^! > /dev/printer
+echo ~E0030 Date - 13 Oct 2016 BML~^! > /dev/printer
+echo ~E0029 Time - 12:25:40 BML~^! > /dev/printer
+echo ~E0030 Tested By - gokul BML~^! > /dev/printer
+echo ~E0034CAMERA-------------PASSBML^!>/dev/printer
+echo ~E0034CAMERA-------------PASSBML^!>/dev/printer
+echo ~E0035Machine ID - gokulraj. BML~^! > /dev/printer
+echo ~E0032Model ID - sg002... BML~^! > /dev/printer
+echo ~E0035GPIO---------------PASSBML~^! > /dev/printer
+echo ~E0035BackLight----------PASSBML~^! > /dev/printer
+echo ~E0035Buzzer-------------PASSBML~^! > /dev/printer
+echo ~E0035USB HUB------------PASSBML~^! > /dev/printer
+echo ~E0035RTC----------------PASSBML~^! > /dev/printer
+echo ~E0034CAMERA-------------FAILBML^!>/dev/printer
+echo ~E0035RTC----------------PASSBML~^! > /dev/printer
+echo ~E0035Fingure_print------PASSBML~^! > /dev/printer
+echo ~E0034SAM----------------PASSBML^!>/dev/printer
+echo ~E0034SAM----------------PASSBML^!>/dev/printer
+echo ~E0035Machine ID - gokulraj. BML~^! > /dev/printer
+echo ~E0032Model ID - sg002... BML~^! > /dev/printer
+echo ~E0035GPIO---------------PASSBML~^! > /dev/printer
+echo ~E0035BackLight----------PASSBML~^! > /dev/printer
+echo ~E0035Buzzer-------------PASSBML~^! > /dev/printer
+echo ~E0034SAM----------------PASSBML^!>/dev/printer
+echo ~E0035Fingure_print------FAILBML~^! > /dev/printer
+echo ~E0035Fingure_print------PASSBML~^! > /dev/printer
+echo ~E0035BackLight----------PASSBML~^! > /dev/printer
+echo ~E0035BackLight----------PASSBML~^! > /dev/printer
+echo ~E0035Machine ID - gokulraj. BML~^! > /dev/printer
+echo ~E0032Model ID - sg002... BML~^! > /dev/printer
+echo ~E0035GPIO---------------PASSBML~^! > /dev/printer
+echo ~E0035BackLight----------FAILBML~^! > /dev/printer
+echo ~E0034wifi---------------FAILBML^!>/dev/printer
+echo ~E0034wifi---------------FAILBML^!>/dev/printer
+echo ~E0034wifi---------------PASSBML^!>/dev/printer
+echo ~E0034wifi---------------PASSBML^!>/dev/printer
+echo ~E0034Barcode------------FAILBML^!>/dev/printer
+echo ~E0034Barcode------------FAILBML^!>/dev/printer
+echo ~E0034Barcode------------FAILBML^!>/dev/printer
+echo ~E0034Barcode------------FAILBML^!>/dev/printer
+echo ~E0034Barcode------------FAILBML^!>/dev/printer
+echo ~E0034Barcode------------PASSBML^!>/dev/printer
+echo ~E0034RFID---------------FAILBML^!>/dev/printer
+echo ~E0035BackLight----------PASSBML~^! > /dev/printer

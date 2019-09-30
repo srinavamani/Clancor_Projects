@@ -1,0 +1,17 @@
+Package: pcsc-lite
+Version: 1.8.6-r3
+Description: pcsc-lite version 1.8.6-r3
+ PC/SC Lite smart card framework and applications
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: armv5te
+OE: pcsc-lite
+Homepage: http://pcsclite.alioth.debian.org/
+Depends: libudev0 (>= 182), libc6 (>= 2.17)
+Recommends: ccid
+Provides: pcsc-lite-systemd
+Replaces: pcsc-lite-systemd
+Conflicts: pcsc-lite-systemd
+Source: https://alioth.debian.org/frs/download.php/3757/pcsc-lite-1.8.6.tar.bz2

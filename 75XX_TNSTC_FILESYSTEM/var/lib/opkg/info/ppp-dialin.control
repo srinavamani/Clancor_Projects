@@ -1,0 +1,13 @@
+Package: ppp-dialin
+Version: 0.1-r8
+Description: ppp-dialin version 0.1-r8
+ Enables PPP dial-in through a serial connection
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: ppp-dialin
+Homepage: unknown
+Depends: shadow, ppp, base-passwd
+Source: file://host-peer file://ppp-dialin

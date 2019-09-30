@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/rtc_read -poweroff

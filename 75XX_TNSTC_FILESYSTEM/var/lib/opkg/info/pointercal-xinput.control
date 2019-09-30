@@ -1,0 +1,12 @@
+Package: pointercal-xinput
+Version: 0.0-r4
+Description: pointercal-xinput version 0.0-r4
+ Touchscreen calibration data from xinput-calibrator
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: pointercal-xinput
+Homepage: unknown
+Source: file://pointercal.xinput
