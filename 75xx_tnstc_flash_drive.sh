@@ -69,6 +69,8 @@ do_make_img_file()
 mkfs.ubifs -F -x lzo -m 2048 -e 126976 -c 2048 -o rootfs_ubifs.img -d ./75XX_TNSTC_FILESYSTEM
 ubinize -o 75xx_tnstc.img -m 2048 -p 131072 -O 2048 -s 2048 ./rootfs_ubinize.cfg
 chmod 777 75xx_tnstc.img
+rm -rf ./base_filesystem/usr/fs
+mkdir -p ./base_filesystem/usr/fs
 cp 75xx_tnstc.img ./base_filesystem/usr/fs/ubi_match.img
 sync
 }
