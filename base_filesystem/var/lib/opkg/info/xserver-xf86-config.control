@@ -1,0 +1,12 @@
+Package: xserver-xf86-config
+Version: 0.1-r11
+Description: xserver-xf86-config version 0.1-r11
+ X.Org X server configuration file
+Section: x11/base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-X
+Architecture: nuvoton_bsp
+OE: xserver-xf86-config
+Homepage: http://www.x.org
+Source: file://xorg.conf

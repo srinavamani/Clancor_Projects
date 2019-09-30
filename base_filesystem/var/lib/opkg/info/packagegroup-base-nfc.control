@@ -1,0 +1,17 @@
+Package: packagegroup-base-nfc
+Version: 1.0-r76
+Description: Near Field Communication support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: neard
+Recommends: kernel-module-nfc
+Provides: task-base-nfc
+Replaces: task-base-nfc
+Conflicts: task-base-nfc
+Source: None

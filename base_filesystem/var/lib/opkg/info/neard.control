@@ -1,0 +1,14 @@
+Package: neard
+Version: 0.10+git0+eb486bf35e24d7d1db61350f5ab393a0c880523d-r0
+Description: Linux NFC daemon
+ A daemon for the Linux Near Field Communication stack
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: armv5te
+OE: neard
+Homepage: http://01.org/linux-nfc
+Depends: dbus-1, python-pygobject, python, libdbus-1-3 (>= 1.6.8), libnl-3-200 (>= 3.2.21), libnl-3-genl (>= 3.2.21), libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3), python-dbus
+Recommends: bluez4, update-rc.d, wpa-supplicant
+Source: git://git.kernel.org/pub/scm/network/nfc/neard.git;protocol=git file://neard.in

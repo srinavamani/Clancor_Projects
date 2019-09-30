@@ -1,0 +1,13 @@
+Package: pango-module-basic-fc
+Version: 1.32.5-r2
+Description: Framework for layout and rendering of internationalized text
+ Pango module basic-fc
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.0+
+Architecture: armv5te
+OE: pango
+Homepage: http://www.pango.org/
+Depends: libicule50 (>= 50.1.2), libc6 (>= 2.17), libffi6 (>= 3.0.11), harfbuzz (>= 0.9.12), libfreetype6 (>= 2.4.11), libfontconfig1 (>= 2.10.2), libstdc++6 (>= 4.7.2), libglib-2.0-0 (>= 2.34.3), libicudata50 (>= 50.1.2), pango (>= 1.32.5), libexpat1 (>= 2.1.0), libicuuc50 (>= 50.1.2)
+Source: http://ftp.gnome.org/pub/GNOME/sources/pango/1.32/pango-1.32.5.tar.xz;name=archive file://no-tests.patch file://multilib-fix-clean.patch file://obsolete_automake_macros.patch

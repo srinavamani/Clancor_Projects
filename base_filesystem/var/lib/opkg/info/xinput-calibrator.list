@@ -1,0 +1,7 @@
+/usr/share/applications/xinput_calibrator.desktop
+/usr/bin/xinput_calibrator_once.sh
+/usr/share/pixmaps/xinput_calibrator.svg
+/usr/share/pixmaps/xinput_calibrator.xpm
+/usr/bin/xinput_calibrator
+/usr/bin/tester
+/etc/xdg/autostart/xinput_calibrator.desktop

@@ -1,0 +1,17 @@
+Package: packagegroup-base-nfs
+Version: 1.0-r76
+Description: NFS network filesystem support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: rpcbind
+Recommends: kernel-module-nfs
+Provides: task-base-nfs
+Replaces: task-base-nfs
+Conflicts: task-base-nfs
+Source: None

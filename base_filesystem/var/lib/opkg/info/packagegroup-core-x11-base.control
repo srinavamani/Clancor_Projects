@@ -1,0 +1,16 @@
+Package: packagegroup-core-x11-base
+Version: 1.0-r1
+Description: Basic X11 session
+ Packages required to set up a basic working X11 session
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: packagegroup-core-x11-base
+Homepage: unknown
+Depends: dbus-1, pointercal, packagegroup-core-x11-utils, matchbox-terminal, liberation-fonts, mini-x-session, matchbox-wm, packagegroup-core-x11-xserver
+Provides: task-core-x11-mini, task-core-x11-base
+Replaces: task-core-x11-mini, task-core-x11-base
+Conflicts: task-core-x11-mini, task-core-x11-base
+Source: None

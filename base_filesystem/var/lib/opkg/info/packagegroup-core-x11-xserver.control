@@ -1,0 +1,16 @@
+Package: packagegroup-core-x11-xserver
+Version: 1.0-r39
+Description: X11 display server
+ packagegroup-core-x11-xserver version 1.0-r39
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-core-x11-xserver
+Homepage: unknown
+Depends: xserver-xorg, xf86-video-fbdev, xf86-input-evdev
+Provides: task-x11-server, task-xserver
+Replaces: task-x11-server, task-xserver
+Conflicts: task-x11-server, task-xserver
+Source: None

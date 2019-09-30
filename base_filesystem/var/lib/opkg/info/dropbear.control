@@ -1,0 +1,15 @@
+Package: dropbear
+Version: 2012.55-r2.1
+Description: dropbear version 2012.55-r2.1
+ Dropbear is a lightweight SSH and SCP implementation
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: armv5te
+OE: dropbear
+Homepage: http://matt.ucc.asn.au/dropbear/dropbear.html
+Depends: libgcc1 (>= 4.7.2), update-alternatives-cworth, libz1 (>= 1.2.7), libc6 (>= 2.17)
+Recommends: update-rc.d
+Provides: sshd, ssh
+Source: http://matt.ucc.asn.au/dropbear/releases/dropbear-2012.55.tar.gz file://urandom-xauth-changes-to-options.h.patch file://dropbear-0.53.1-static_build_fix.patch file://configure.patch file://fix-2kb-keys.patch file://nopw-option.patch file://0007-dropbear-fix-for-x32-abi.patch file://init

@@ -1,0 +1,16 @@
+Package: packagegroup-core-x11-sato
+Version: 1.0-r33
+Description: Sato desktop
+ Sato desktop
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-core-x11-sato
+Homepage: unknown
+Depends: packagegroup-core-x11-sato-games, packagegroup-core-x11-sato-apps, packagegroup-core-x11-sato-base
+Provides: task-core-x11-sato
+Replaces: task-core-x11-sato
+Conflicts: task-core-x11-sato
+Source: None

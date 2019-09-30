@@ -1,0 +1,15 @@
+Package: xserver-common
+Version: 1.34-r8
+Description: xserver-common version 1.34-r8
+ Common X11 scripts and support files
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: all
+OE: xserver-common
+Homepage: unknown
+Depends: xmodmap, xrandr, xdpyinfo, fbset, xinput-calibrator
+Replaces: xserver-kdrive-common, x11-common
+Conflicts: xserver-kdrive-common, x11-common
+Source: http://gpe.linuxtogo.org/download/source/xserver-common-1.34.tar.gz file://0001-COPYING-add-GPLv2-license-file.patch file://0002-add-setdpi-Xinit.d-script.patch file://0003-add-89xdgautostart-Xsession.d-script.patch file://0005-add-XWindowManager-Xsession.d-script.patch file://0006-add-support-for-etc-X11-xserver-system.patch file://0007-use-own-functions-file-instead-etc-init.d-functions.patch file://0008-xserver-common-add-dpi-and-nocursor-params-for-gta01.patch file://0009-xserver-common-add-support-for-n900-alias-nokia_rx-5.patch file://0010-xserver-common-add-support-for-nexus-S-alias-herring.patch file://0011-xserver-common-add-support-for-nexus-one-alias-mahim.patch file://0012-xserver-common-add-support-for-gta04-alias-OpenPhoen.patch file://0013-xserver-common-add-support-for-tuna-alias-Galaxy-Nex.patch

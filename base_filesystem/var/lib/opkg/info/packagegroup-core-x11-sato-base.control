@@ -1,0 +1,13 @@
+Package: packagegroup-core-x11-sato-base
+Version: 1.0-r33
+Description: Sato desktop - base packages
+ Sato desktop
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-core-x11-sato
+Homepage: unknown
+Depends: sato-icon-theme, matchbox-keyboard-applet, xcursor-transparent-theme, matchbox-desktop, gtk-sato-engine, shutdown-desktop, matchbox-config-gtk, settings-daemon, matchbox-session-sato, libsdl-1.2-0, matchbox-keyboard, matchbox-keyboard-im, connman-gnome
+Source: None

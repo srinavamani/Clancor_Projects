@@ -1,0 +1,12 @@
+Package: shutdown-desktop
+Version: 1.0-r1
+Description: Provides an icon to shut down the system cleanly
+ Provides an icon to shut down the system cleanly
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: shutdown-desktop
+Homepage: unknown
+Source: file://shutdown.desktop

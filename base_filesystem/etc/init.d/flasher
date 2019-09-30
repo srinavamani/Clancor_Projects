@@ -1,0 +1,38 @@
+echo 195 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio195/direction
+GPIO=/sys/class/gpio/gpio195/value
+flash_eraseall -j /dev/mtd1
+echo "<=================>Kernel Partition Erased<=================>"
+nandwrite -p /dev/mtd1 /usr/kernel/uImage
+echo "<=================>Kernel Partition Flashed<=================>"
+#Kernel Flash completed buzzer 
+echo "1" > $GPIO
+usleep 10000
+echo "0" > $GPIO
+usleep 1500
+echo "1" > $GPIO
+usleep 10000
+echo "0" > $GPIO
+#Kernel Flash completed buzzer
+sync
+sleep 1
+flash_eraseall -j /dev/mtd2
+echo "<=================>Filesystem Partition Erased<=================>"
+nandwrite -p /dev/mtd2 /usr/fs/ubi_match.img
+echo "<=================>Filesystem Partition Flashed<=================>"
+ubiattach /dev/ubi_ctrl -m 2 -O 2048
+echo "<=================>Filesystem Partition Mounted<=================>"
+#Kernel Flash completed buzzer
+echo "1" > $GPIO
+usleep 10000
+echo "0" > $GPIO
+usleep 1500
+echo "1" > $GPIO
+usleep 10000
+echo "0" > $GPIO
+ubidetach /dev/ubi_ctrl -m 2
+echo "<=================>Filesystem Partition Unmounted<=================>"
+sync
+#Kernel Flash completed buzzer
+echo 195 > /sys/class/gpio/unexport 
+sync

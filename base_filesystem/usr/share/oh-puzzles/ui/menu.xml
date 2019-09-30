@@ -1,0 +1,25 @@
+<ui>
+<menubar>
+<menu name="TopMenu" action="Top">
+	<menu name="GameMenu" action="Game">
+		<menuitem name="NewMenu" action="New"/>
+		<menuitem name="RestartMenu" action="Restart"/>
+	<!--	<menuitem name="SpecificMenu" action="Specific"/> -->
+		<menuitem name="RandomMenu" action="Random"/>
+		<separator name="GameSep1"/>
+		<menuitem name="LoadMenu" action="Load"/>
+		<menuitem name="SaveMenu" action="Save"/>
+		<separator name="GameSep2"/>
+		<menuitem name="UndoMenu" action="Undo"/>
+		<menuitem name="RedoMenu" action="Redo"/>
+		<placeholder name="CopyPlaceholder"/>
+		<placeholder name="SolvePlaceholder"/>
+	</menu>
+
+	<placeholder name="TypePlaceholder"/>
+	<menuitem name="AboutMenu" action="About"/>
+	<menuitem name="QuitMenu" action="Quit"/>
+
+</menu>
+</menubar>
+</ui>

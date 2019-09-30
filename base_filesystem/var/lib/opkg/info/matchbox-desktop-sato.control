@@ -1,0 +1,13 @@
+Package: matchbox-desktop-sato
+Version: 0.1+git0+810b0b08eb79e4685202da2ec347b990bb467e07-r1
+Description: matchbox-desktop-sato version 0.1+gitAUTOINC+810b0b08eb79e4685202da2ec347b990bb467e07-r1
+ Sato desktop folders
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: armv5te
+OE: matchbox-desktop-sato
+Homepage: http://matchbox-project.org
+Conflicts: matchbox-common
+Source: git://git.yoctoproject.org/matchbox-desktop-sato;protocol=git

@@ -1,0 +1,16 @@
+Package: libxsettings-client0
+Version: 0.10-r5
+Description: utility functions for the Xsettings protocol
+ Libraries used for applications making use of the Xsettings configuration
+ setting propagation protocol. Controls setting of double click timeout,
+ drag-and-drop threshold, and default foreground and background colors for
+ all applications running within a desktop.
+Section: x/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-style
+Architecture: armv5te
+OE: libxsettings-client
+Homepage: http://matchbox-project.org/sources/optional-dependencies/
+Depends: libx11-6 (>= 1.5.0), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Source: http://downloads.yoctoproject.org/releases/matchbox/optional-dependencies/Xsettings-client-0.10.tar.gz file://MIT-style-license file://link-x11.patch;apply=yes file://disable_Os_option.patch file://obsolete_automake_macros.patch

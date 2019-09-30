@@ -1,0 +1,15 @@
+Package: libapm1
+Version: 3.2.2-14-r2
+Description: Utilities for Advanced Power Management
+ The Advanced Power Management (APM) support provides access to battery
+ status information and a set of tools for managing notebook power
+ consumption.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: armv5te
+OE: apmd
+Homepage: http://apenwarr.ca/apmd/
+Depends: libc6 (>= 2.17)
+Source: ftp://ftp.debian.org/debian/pool/main/a/apmd/apmd_3.2.2.orig.tar.gz;name=tarball ftp://ftp.debian.org/debian/pool/main/a/apmd/apmd_3.2.2-14.diff.gz;name=patch file://libtool.patch file://unlinux.patch file://init file://default file://apmd_proxy file://apmd_proxy.conf

@@ -1,0 +1,13 @@
+Package: dbus-wait
+Version: 0.1+git0+1a3e1343761b30750bed70e0fd688f6d3c7b3717-r2
+Description: dbus-wait version 0.1+gitAUTOINC+1a3e1343761b30750bed70e0fd688f6d3c7b3717-r2
+ A simple tool to wait for a specific signal over DBus
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: armv5te
+OE: dbus-wait
+Homepage: http://git.yoctoproject.org/cgit/cgit.cgi/dbus-wait
+Depends: libdbus-1-3 (>= 1.6.8), libc6 (>= 2.17)
+Source: git://git.yoctoproject.org/dbus-wait;protocol=git

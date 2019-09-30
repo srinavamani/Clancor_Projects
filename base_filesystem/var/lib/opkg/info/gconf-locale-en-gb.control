@@ -1,0 +1,15 @@
+Package: gconf-locale-en-gb
+Version: 3.2.6-r0
+Description: gconf version 3.2.6-r0 - en_GB translations
+ GNOME configuration system  This package contains language translation
+ files for the en_GB locale.
+Section: x11/gnome
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2+
+Architecture: armv5te
+OE: gconf
+Homepage: unknown
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, gconf-locale
+Source: http://ftp.gnome.org/pub/GNOME/sources/GConf/3.2/GConf-3.2.6.tar.xz;name=archive file://remove_plus_from_invalid_characters_list.patch

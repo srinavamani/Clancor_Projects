@@ -1,0 +1,17 @@
+Package: packagegroup-base-bluetooth
+Version: 1.0-r76
+Description: Bluetooth support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: bluez4, libasound-module-bluez
+Recommends: kernel-module-bnep, kernel-module-bluetooth, kernel-module-hci-usb, kernel-module-rfcomm, kernel-module-sco, kernel-module-hci-uart, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap
+Provides: task-base-bluetooth
+Replaces: task-base-bluetooth
+Conflicts: task-base-bluetooth
+Source: None

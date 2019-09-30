@@ -1,0 +1,13 @@
+Package: x11vnc
+Version: 0.9.13-r0
+Description: x11vnc version 0.9.13-r0
+ Export your X session on-the-fly via VNC
+Section: x11/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: armv5te
+OE: x11vnc
+Homepage: http://www.karlrunge.com/x11vnc/
+Depends: libx11-6 (>= 1.5.0), libgcc1 (>= 4.7.2), libxtst6 (>= 1.2.1), libxrandr2 (>= 1.4.0), libxfixes3 (>= 5.0), libxinerama1 (>= 1.1.2), libavahi-common3 (>= 0.6.31), libxdamage1 (>= 1.1.4), libz1 (>= 1.2.7), libavahi-client3 (>= 0.6.31), libcrypto1.0.0 (>= 1.0.1e), libjpeg8 (>= 8d), libc6 (>= 2.17), libssl1.0.0 (>= 1.0.1e), libxext6 (>= 1.3.1)
+Source: http://downloads.sourceforge.net/libvncserver/x11vnc/0.9.13/x11vnc-0.9.13.tar.gz file://starting-fix.patch file://endian-fix.patch

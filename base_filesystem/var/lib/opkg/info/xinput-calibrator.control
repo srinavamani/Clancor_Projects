@@ -1,0 +1,17 @@
+Package: xinput-calibrator
+Version: 0.7.5+git0+c01c5af807cb4b0157b882ab07a893df9a810111-r6
+Description: xinput-calibrator version 0.7.5+gitAUTOINC+c01c5af807cb4b0157b882ab07a893df9a810111-r6
+ A generic touchscreen calibration program for X.Org
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-X
+Architecture: armv5te
+OE: xinput-calibrator
+Homepage: http://www.freedesktop.org/wiki/Software/xinput_calibrator
+Depends: libx11-6 (>= 1.5.0), libgcc1 (>= 4.7.2), xinput, libxrandr2 (>= 1.4.0), libc6 (>= 2.17), xterm, libxi6 (>= 1.7), libstdc++6 (>= 4.7.2)
+Recommends: pointercal-xinput
+Provides: xinput-calibrator-systemd
+Replaces: xinput-calibrator-systemd
+Conflicts: xinput-calibrator-systemd
+Source: git://github.com/tias/xinput_calibrator.git;protocol=git file://xinput-calibrator.service

@@ -1,0 +1,15 @@
+Package: packagegroup-machine-base
+Version: 1.0-r76
+Description: nuvoton-bsp extras
+ Extra packages required to fully support nuvoton-bsp hardware
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Provides: task-machine-base
+Replaces: task-machine-base
+Conflicts: task-machine-base
+Source: None

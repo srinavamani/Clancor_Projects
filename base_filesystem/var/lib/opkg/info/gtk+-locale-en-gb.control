@@ -1,0 +1,17 @@
+Package: gtk+-locale-en-gb
+Version: 2.24.15-r1
+Description: Multi-platform toolkit for creating GUIs - en_GB translations
+ GTK+ is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK+ is suitable for projects ranging
+ from small one-off projects to complete application suites.  This package
+ contains language translation files for the en_GB locale.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2 & LGPLv2+ & LGPLv2.1+
+Architecture: armv5te
+OE: gtk+
+Homepage: http://www.gtk.org
+Recommends: virtual-locale-en-gb
+Provides: gtk+-locale, en-gb-translation
+Source: http://download.gnome.org/sources/gtk+/2.24/gtk+-2.24.15.tar.xz file://xsettings.patch file://run-iconcache.patch file://configure-nm.patch file://hardcoded_libtool.patch file://cellrenderer-cairo.patch;striplevel=0 file://toggle-font.diff;striplevel=0 file://0001-bgo-584832-Duplicate-the-exec-string-returned-by-gtk.patch file://doc-fixes.patch file://0001-GtkButton-do-not-prelight-in-touchscreen-mode.patch

@@ -1,0 +1,14 @@
+Package: libxkbfile1
+Version: 1:1.0.8-r0
+Description: XKB: X Keyboard File manipulation library
+ libxkbfile provides an interface to read and manipulate description files
+ for XKB, the X11 keyboard configuration extension.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-style
+Architecture: armv5te
+OE: libxkbfile
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libxkbfile-1.0.8.tar.bz2

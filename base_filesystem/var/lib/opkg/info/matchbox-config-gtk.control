@@ -1,0 +1,13 @@
+Package: matchbox-config-gtk
+Version: 0.0+git0+3ed74dfb7c57be088a5ab36e446c0ccde9fa1028-r0
+Description: matchbox-config-gtk version 0.0+gitAUTOINC+3ed74dfb7c57be088a5ab36e446c0ccde9fa1028-r0
+ Matchbox GTK+ theme configuration application.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: armv5te
+OE: matchbox-config-gtk
+Homepage: http://matchbox-project.org
+Depends: gconf (>= 3.2.6), libglib-2.0-0 (>= 2.34.3), libgtk-2.0 (>= 2.24.15), settings-daemon, libc6 (>= 2.17)
+Source: git://git.yoctoproject.org/matchbox-config-gtk;protocol=git file://no-handed.patch;striplevel=0

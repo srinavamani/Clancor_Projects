@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Music Player
+Comment=Play your favourite songs
+Icon=audio-player
+TryExec=gaku
+Exec=gaku
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GTK;AudioVideo;Audio;Player;
+X-MB-SingleInstance=true

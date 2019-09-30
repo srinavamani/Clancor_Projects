@@ -1,0 +1,14 @@
+Package: libmenu-cache2
+Version: 0.4.1-r0
+Description: Library for caching application menus
+ A library creating and utilizing caches to speed up freedesktop.org
+ application menus
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & GPLv2+
+Architecture: armv5te
+OE: menu-cache
+Homepage: http://lxde.sourceforge.net/
+Depends: libglib-2.0-0 (>= 2.34.3), libffi6 (>= 3.0.11), libz1 (>= 1.2.7), libc6 (>= 2.17)
+Source: http://downloads.sourceforge.net/lxde/menu-cache-0.4.1.tar.gz file://Fix-segfault.patch

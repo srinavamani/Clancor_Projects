@@ -1,0 +1,13 @@
+Package: python-pygobject
+Version: 2.27.91-r6
+Description: python-pygobject version 2.27.91-r6
+ Python GObject bindings
+Section: devel/python
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: armv5te
+OE: python-pygobject
+Homepage: unknown
+Depends: libpython2.7-1.0 (>= 2.7.3), libpyglib-2.0-python0 (>= 2.27.91), python-textutils, libz1 (>= 1.2.7), libffi6 (>= 3.0.11), python-core, libc6 (>= 2.17), libglib-2.0-0 (>= 2.34.3)
+Source: http://ftp.gnome.org/pub/GNOME/sources/pygobject/2.27/pygobject-2.27.91.tar.bz2 file://obsolete_automake_macros.patch

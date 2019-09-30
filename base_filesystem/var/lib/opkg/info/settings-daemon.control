@@ -1,0 +1,13 @@
+Package: settings-daemon
+Version: 0.0+git0+0f174f463dfed500b65533e249cd22942e439c77-r0
+Description: settings-daemon version 0.0+gitAUTOINC+0f174f463dfed500b65533e249cd22942e439c77-r0
+ Settings-daemon provides a bridge between gconf and xsettings
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-style
+Architecture: armv5te
+OE: settings-daemon
+Homepage: http://svn.o-hand.com/view/matchbox/trunk/settings-daemon/
+Depends: gconf (>= 3.2.6), libglib-2.0-0 (>= 2.34.3), libgtk-2.0 (>= 2.24.15), libx11-6 (>= 1.5.0), libc6 (>= 2.17)
+Source: git://git.yoctoproject.org/xsettings-daemon;protocol=git file://addsoundkeys.patch;apply=yes file://70settings-daemon.sh file://dso_linking_change_build_fix.patch

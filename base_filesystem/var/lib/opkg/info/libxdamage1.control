@@ -1,0 +1,22 @@
+Package: libxdamage1
+Version: 1:1.1.4-r0
+Description: Xdamage: X Damage extension library
+ 'Damage' is a term that describes changes make to pixel contents of
+ windows and pixmaps.  Damage accumulates as drawing occurs in the
+ drawable.  Each drawing operation 'damages' one or more rectangular areas
+ within the drawable.  The rectangles are guaranteed to include the set of
+ pixels modified by each operation, but may include significantly more
+ than just those pixels.  The DAMAGE extension allows applications to
+ either receive the raw rectangles as a stream of events, or to have them
+ partially processed within the X server to reduce the amount of data
+ transmitted as well as reduce the processing latency once the repaint
+ operation has started.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: armv5te
+OE: libxdamage
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxfixes3 (>= 5.0), libxcb1 (>= 1.9), libc6 (>= 2.17), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXdamage-1.1.4.tar.bz2

@@ -1,0 +1,16 @@
+Package: libxxf86vm1
+Version: 1:1.1.2-r0
+Description: XFree86-VM: XFree86 video mode extension library
+ libXxf86vm provides an interface to the XFree86-VidModeExtension
+ extension, which allows client applications to get and set video mode
+ timings in extensive detail.  It is used by the xvidtune program in
+ particular.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: armv5te
+OE: libxxf86vm
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxcb1 (>= 1.9), libxext6 (>= 1.3.1), libc6 (>= 2.17), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXxf86vm-1.1.2.tar.bz2

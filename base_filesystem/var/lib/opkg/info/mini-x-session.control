@@ -1,0 +1,14 @@
+Package: mini-x-session
+Version: 0.1-r4
+Description: mini-x-session version 0.1-r4
+ Mini X session files for poky
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: armv5te
+OE: mini-x-session
+Homepage: http://www.yoctoproject.org
+Depends: update-alternatives-cworth, sudo
+Conflicts: matchbox-common
+Source: file://mini-x-session

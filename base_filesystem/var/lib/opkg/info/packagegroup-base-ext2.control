@@ -1,0 +1,16 @@
+Package: packagegroup-base-ext2
+Version: 1.0-r76
+Description: ext2 filesystem support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: hdparm, e2fsprogs-e2fsck, e2fsprogs-mke2fs, e2fsprogs
+Provides: task-base-ext2
+Replaces: task-base-ext2
+Conflicts: task-base-ext2
+Source: None

@@ -1,0 +1,15 @@
+Package: libxpm4
+Version: 1:3.5.10-r0
+Description: Xpm: X Pixmap extension library
+ libXpm provides support and common operation for the XPM pixmap format,
+ which is commonly used in legacy X applications.  XPM is an extension of
+ the monochrome XBM bitmap specificied in the X protocol.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: armv5te
+OE: libxpm
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXpm-3.5.10.tar.bz2

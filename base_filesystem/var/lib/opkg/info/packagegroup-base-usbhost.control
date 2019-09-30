@@ -1,0 +1,17 @@
+Package: packagegroup-base-usbhost
+Version: 1.0-r76
+Description: USB host support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Depends: usbutils
+Recommends: kernel-module-usbmouse, kernel-module-mousedev, kernel-module-scsi-mod, kernel-module-uhci-hcd, kernel-module-usbhid, kernel-module-usb-storage, kernel-module-usbcore, kernel-module-ohci-hcd, kernel-module-ehci-hcd, kernel-module-sd-mod, kernel-module-usbnet, kernel-module-usbserial
+Provides: task-base-usbhost
+Replaces: task-base-usbhost
+Conflicts: task-base-usbhost
+Source: None

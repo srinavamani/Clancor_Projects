@@ -1,0 +1,12 @@
+Package: xcursor-transparent-theme
+Version: 0.1.1-r4
+Description: xcursor-transparent-theme version 0.1.1-r4
+ Transparent xcursor theme for handheld systems
+Section: x11/base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: all
+OE: xcursor-transparent-theme
+Homepage: http://www.matchbox-project.org/
+Source: http://downloads.yoctoproject.org/releases/matchbox/utils/xcursor-transparent-theme-0.1.1.tar.gz file://use-relative-symlinks.patch file://fix_watch_cursor.patch

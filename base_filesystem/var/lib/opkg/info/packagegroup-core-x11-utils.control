@@ -1,0 +1,16 @@
+Package: packagegroup-core-x11-utils
+Version: 1.0-r38
+Description: X11 basic utilities and init
+ X11 display server and basic utilities
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: packagegroup-core-x11
+Homepage: unknown
+Depends: xhost, xset, xrandr, xauth, x11-common, xserver-nodm-init
+Provides: task-x11-utils
+Replaces: task-x11-utils
+Conflicts: task-x11-utils
+Source: None

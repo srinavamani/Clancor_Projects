@@ -1,0 +1,14 @@
+Package: matchbox-session
+Version: 0.1-r4
+Description: matchbox-session version 0.1-r4
+ Custom MB session files for poky
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: armv5te
+OE: matchbox-session
+Homepage: http://www.matchbox-project.org/
+Depends: update-alternatives-cworth
+Conflicts: matchbox-common
+Source: file://matchbox-session

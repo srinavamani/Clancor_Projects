@@ -1,0 +1,16 @@
+Package: packagegroup-base-ipv6
+Version: 1.0-r76
+Description: IPv6 support
+ Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: nuvoton_bsp
+OE: packagegroup-base
+Homepage: unknown
+Recommends: kernel-module-ipv6
+Provides: task-base-ipv6
+Replaces: task-base-ipv6
+Conflicts: task-base-ipv6
+Source: None

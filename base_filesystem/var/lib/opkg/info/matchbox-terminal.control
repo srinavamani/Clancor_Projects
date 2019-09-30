@@ -1,0 +1,13 @@
+Package: matchbox-terminal
+Version: 0.0+git0+3fc25cb811a8ed306de897edf9b930f4402f3852-r0
+Description: matchbox-terminal version 0.0+gitAUTOINC+3fc25cb811a8ed306de897edf9b930f4402f3852-r0
+ Matchbox Terminal
+Section: x11/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: armv5te
+OE: matchbox-terminal
+Homepage: http://www.matchbox-project.org/
+Depends: libglib-2.0-0 (>= 2.34.3), libgtk-2.0 (>= 2.24.15), libvte9 (>= 0.28.2), libc6 (>= 2.17)
+Source: git://git.yoctoproject.org/matchbox-terminal;protocol=git

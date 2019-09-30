@@ -1,0 +1,13 @@
+Package: sato-icon-theme
+Version: 0.4.1-r6
+Description: sato-icon-theme version 0.4.1-r6
+ Sato Icon Theme
+Section: x11
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: CC-BY-SA-3.0
+Architecture: all
+OE: sato-icon-theme
+Homepage: http://www.o-hand.com
+Depends: hicolor-icon-theme
+Source: http://pokylinux.org/releases/sato/sato-icon-theme-0.4.1.tar.gz file://iconpath-option.patch file://0001-Inherit-the-GNOME-icon-theme.patch

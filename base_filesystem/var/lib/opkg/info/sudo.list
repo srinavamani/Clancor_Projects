@@ -1,0 +1,10 @@
+/usr/lib/sudo/sudo_noexec.so
+/etc/sudoers
+/usr/lib/sudo/sudoers.so
+/usr/bin/sudo
+/usr/sbin/visudo
+/usr/lib/sudo/
+/etc/sudoers.d/
+/usr/bin/sudoreplay
+/usr/bin/sudoedit
+/var/lib/sudo/

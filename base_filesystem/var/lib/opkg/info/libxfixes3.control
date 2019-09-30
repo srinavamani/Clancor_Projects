@@ -1,0 +1,16 @@
+Package: libxfixes3
+Version: 1:5.0-r0
+Description: XFixes: X Fixes extension library.
+ X applications have often needed to work around various shortcomings in
+ the core X window system.  This extension is designed to provide the
+ minimal server-side support necessary to eliminate problems caused by
+ these workarounds.
+Section: x11/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT-style
+Architecture: armv5te
+OE: libxfixes
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.5.0), libxau6 (>= 1.0.7), libxdmcp6 (>= 1.1.1), libxcb1 (>= 1.9), libc6 (>= 2.17)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXfixes-5.0.tar.bz2

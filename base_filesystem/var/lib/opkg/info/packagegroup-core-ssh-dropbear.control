@@ -1,0 +1,16 @@
+Package: packagegroup-core-ssh-dropbear
+Version: 1.0-r1
+Description: Dropbear SSH client/server
+ Dropbear SSH client/server
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: packagegroup-core-ssh-dropbear
+Homepage: unknown
+Depends: dropbear
+Provides: task-core-ssh-dropbear
+Replaces: task-core-ssh-dropbear
+Conflicts: task-core-ssh-dropbear
+Source: None

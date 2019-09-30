@@ -1,0 +1,13 @@
+Package: matchbox-wm
+Version: 1.2+git0+686178379e5ad00453d9f6f50b53777372a29e68-r0
+Description: matchbox-wm version 1.2+gitAUTOINC+686178379e5ad00453d9f6f50b53777372a29e68-r0
+ Matchbox window manager
+Section: x11/wm
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: armv5te
+OE: matchbox-wm
+Homepage: http://matchbox-project.org
+Depends: libx11-6 (>= 1.5.0), libmb1 (>= 1.10), libxfixes3 (>= 5.0), libxext6 (>= 1.3.1), libxsettings-client0 (>= 0.10), libxcursor1 (>= 1.1.13), libc6 (>= 2.17), libexpat1 (>= 2.1.0), libstartup-notification-1-0 (>= 0.12)
+Source: git://git.yoctoproject.org/matchbox-window-manager;protocol=git file://configure_fix.patch;maxrev=1818 file://kbdconfig
